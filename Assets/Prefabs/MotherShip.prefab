@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2904139996271934495}
   - component: {fileID: 2241363266070906907}
   - component: {fileID: 406213061621160072}
+  - component: {fileID: 1556385069478006952}
   m_Layer: 0
   m_Name: MotherShip
   m_TagString: Untagged
@@ -97,7 +98,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0044704843}
@@ -140,3 +141,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 5
   explosion: {fileID: 6665449287174991880, guid: 1a204d428a1644147a705afc5d287c73, type: 3}
+--- !u!114 &1556385069478006952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2721440008180828973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee15928ce0856942b2f4958e7c0def4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagsToCheck:
+  - FriendlyBullet

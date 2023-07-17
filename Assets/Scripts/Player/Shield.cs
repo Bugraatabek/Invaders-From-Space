@@ -8,15 +8,23 @@ public class Shield : MonoBehaviour,IGetEffectedOnCollision
     [SerializeField] private int health;
     private SpriteRenderer spriteRenderer;
 
+    private void Awake() 
+    {
+        health = 4;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+    
     public void CollisionEffect()
     {
         health--;
-        spriteRenderer.sprite = states[health - 1];
-        
         if (health <= 0) 
         { 
             Destroy(gameObject);
+            return;
         }
+        spriteRenderer.sprite = states[health - 1];
+        
+        
     }
 
     // private void OnTriggerEnter2D(Collider2D other) 

@@ -1,11 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Alien : MonoBehaviour, IGetEffectedOnCollision
 {
-   public int scoreValue;
+   [SerializeField] private int _scoreValue;
    [SerializeField] private GameObject explosion;
+
+   public event Action onDeath;
 
    public void CollisionEffect()
    {
@@ -14,8 +17,9 @@ public class Alien : MonoBehaviour, IGetEffectedOnCollision
 
    public void Kill()
    {
-      AlienMaster.allAliens.Remove(gameObject); // Refactor
-      Instantiate(explosion,transform.position, Quaternion.identity); // Refactor
+      AlienList.RemoveFromList(gameObject);
+      Spawner.Spawn(explosion, transform.position);
+      onDeath?.Invoke();
       gameObject.SetActive(false);
    }
 }

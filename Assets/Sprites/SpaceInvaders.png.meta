@@ -216,9 +216,9 @@ TextureImporter:
       name: SpaceInvaders_4
       rect:
         serializedVersion: 2
-        x: 67
+        x: 68
         y: 64
-        width: 10
+        width: 9
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -297,13 +297,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_9
+      name: Shield_Right_1
       rect:
         serializedVersion: 2
         x: 64
         y: 48
-        width: 16
-        height: 16
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,13 +402,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_17
+      name: Shield_Left_2
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 32
-        width: 16
-        height: 16
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,13 +486,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_21
+      name: Shield_Left_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 16
-        width: 16
-        height: 16
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,13 +507,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_22
+      name: Shield_Right_3
       rect:
         serializedVersion: 2
         x: 64
         y: 16
-        width: 16
-        height: 16
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,13 +612,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_28
+      name: Shield_Left_4
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 0
-        width: 16
-        height: 16
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,13 +633,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_29
+      name: Shield_Right_4
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 16
-        height: 16
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,13 +654,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_5
+      name: Shield_Left_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 48
-        width: 16
-        height: 16
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,13 +675,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_10
+      name: Shield_Right_2
       rect:
         serializedVersion: 2
         x: 64
         y: 32
-        width: 16
-        height: 16
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,37 +727,37 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Shield_Left_1: 362919694
+      Shield_Left_2: 1106970391
+      Shield_Left_3: -1043126537
+      Shield_Left_4: 1724642333
+      Shield_Right_1: 786061269
+      Shield_Right_2: 1657798979
+      Shield_Right_3: -1866186916
+      Shield_Right_4: 1398370358
       SpaceInvaders_0: 95706760
       SpaceInvaders_1: -1202319515
-      SpaceInvaders_10: 1657798979
       SpaceInvaders_11: -2135011845
       SpaceInvaders_12: 978988334
       SpaceInvaders_13: -246574392
       SpaceInvaders_14: -1066173381
       SpaceInvaders_15: 19047534
       SpaceInvaders_16: -1253359722
-      SpaceInvaders_17: 1106970391
       SpaceInvaders_18: 1158424000
       SpaceInvaders_19: 74671305
       SpaceInvaders_2: -439634325
       SpaceInvaders_20: 1142425156
-      SpaceInvaders_21: -1043126537
-      SpaceInvaders_22: -1866186916
       SpaceInvaders_23: -1500436937
       SpaceInvaders_24: -1081698710
       SpaceInvaders_25: -2039485494
       SpaceInvaders_26: 2133641080
       SpaceInvaders_27: -508441795
-      SpaceInvaders_28: 1724642333
-      SpaceInvaders_29: 1398370358
       SpaceInvaders_3: 259499451
       SpaceInvaders_30: 32955044
       SpaceInvaders_4: 1596769303
-      SpaceInvaders_5: 362919694
       SpaceInvaders_6: -297910580
       SpaceInvaders_7: 1320266628
       SpaceInvaders_8: 1020194934
-      SpaceInvaders_9: 786061269
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

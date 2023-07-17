@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 7788149524801002345}
   - component: {fileID: 7788149524801002344}
   - component: {fileID: 3063086092227828852}
+  - component: {fileID: 2163957143029050384}
+  - component: {fileID: 7748510032662175552}
   m_Layer: 0
   m_Name: SpaceInvaders_5
-  m_TagString: Untagged
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,22 +97,55 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.012991548, y: -0.01917801}
+  m_Offset: {x: 0.009903684, y: -0.008056261}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
+    oldSize: {x: 0.16, y: 0.14}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1340169, y: 0.121643975}
+  m_Size: {x: 0.12784116, y: 0.12366612}
   m_EdgeRadius: 0
+--- !u!114 &2163957143029050384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7788149524801002350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f61ec3bf7d71f4cb288145a6953d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states:
+  - {fileID: 1724642333, guid: 04de534f88a35a042969a64015616917, type: 3}
+  - {fileID: -1043126537, guid: 04de534f88a35a042969a64015616917, type: 3}
+  - {fileID: 1106970391, guid: 04de534f88a35a042969a64015616917, type: 3}
+  - {fileID: 362919694, guid: 04de534f88a35a042969a64015616917, type: 3}
+  health: 0
+--- !u!114 &7748510032662175552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7788149524801002350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee15928ce0856942b2f4958e7c0def4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagsToCheck:
+  - EnemyBullet
+  - FriendlyBullet
 --- !u!1 &7788149525099308678
 GameObject:
   m_ObjectHideFlags: 0
@@ -120,11 +155,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7788149525099308673}
-  - component: {fileID: 6356671640078265478}
-  - component: {fileID: 2978871336780939949}
   m_Layer: 0
   m_Name: Shield
-  m_TagString: Untagged
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,7 +171,7 @@ Transform:
   m_GameObject: {fileID: 7788149525099308678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.613, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7788149524801002345}
@@ -146,35 +179,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6356671640078265478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7788149525099308678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee15928ce0856942b2f4958e7c0def4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tagsToCheck:
-  - EnemyBullet
-  - FriendlyBullet
---- !u!114 &2978871336780939949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7788149525099308678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2f61ec3bf7d71f4cb288145a6953d05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  states: []
-  health: 4
 --- !u!1 &7788149525624218776
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,9 +190,11 @@ GameObject:
   - component: {fileID: 7788149525624218779}
   - component: {fileID: 7788149525624218778}
   - component: {fileID: 8958223930731837623}
+  - component: {fileID: 814166654938766923}
+  - component: {fileID: 8542996153607529646}
   m_Layer: 0
   m_Name: SpaceInvaders_9
-  m_TagString: Untagged
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -270,19 +276,52 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.014228836, y: -0.018559374}
+  m_Offset: {x: -0.011449754, y: -0.00844869}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
+    oldSize: {x: 0.16, y: 0.14}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.13154233, y: 0.12288125}
+  m_Size: {x: 0.12598419, y: 0.12422933}
   m_EdgeRadius: 0
+--- !u!114 &814166654938766923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7788149525624218776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f61ec3bf7d71f4cb288145a6953d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states:
+  - {fileID: 1398370358, guid: 04de534f88a35a042969a64015616917, type: 3}
+  - {fileID: -1866186916, guid: 04de534f88a35a042969a64015616917, type: 3}
+  - {fileID: 1657798979, guid: 04de534f88a35a042969a64015616917, type: 3}
+  - {fileID: 786061269, guid: 04de534f88a35a042969a64015616917, type: 3}
+  health: 0
+--- !u!114 &8542996153607529646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7788149525624218776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee15928ce0856942b2f4958e7c0def4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagsToCheck:
+  - EnemyBullet
+  - FriendlyBullet

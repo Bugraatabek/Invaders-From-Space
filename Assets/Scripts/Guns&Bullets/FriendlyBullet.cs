@@ -4,7 +4,7 @@ public class FriendlyBullet : Bullet, IGetEffectedOnCollision
 {
     public void CollisionEffect()
     {
-       gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     public override void Travel()
