@@ -2632,8 +2632,8 @@ PrefabInstance:
       propertyPath: _objectPool
       value: 
       objectReference: {fileID: 209786601}
-    - target: {fileID: 2074596889, guid: eebebed6731eb1547916469cf39cbe18, type: 3}
-      propertyPath: gun
+    - target: {fileID: 1839521122, guid: eebebed6731eb1547916469cf39cbe18, type: 3}
+      propertyPath: _gun
       value: 
       objectReference: {fileID: 1839521120}
     - target: {fileID: 188569822449188612, guid: eebebed6731eb1547916469cf39cbe18, type: 3}
