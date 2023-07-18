@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class AlienList : MonoBehaviour 
 {
-    AlienList Instance = null;
+    private static AlienList Instance = null;
 
     public static List<GameObject> allAliens = new List<GameObject>();
 

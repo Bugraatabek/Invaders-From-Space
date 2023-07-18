@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour 
 {   
-    Spawner Instance = null;
+    private static Spawner Instance = null;
     
     private void Awake() 
     {

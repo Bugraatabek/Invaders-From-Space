@@ -6,8 +6,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private float speed = 3f;
-    public event Action shoot;
-
+    [SerializeField] Gun gun;
+   
     private void FixedUpdate() 
     {
 #if UNITY_EDITOR
@@ -28,6 +28,11 @@ public class PlayerController : MonoBehaviour
 
     private void Shoot()
     {
-        shoot?.Invoke();
+        if(!gun) 
+        {
+            print("Gun is not equiped");
+            return;
+        }
+        gun.Shoot();
     }
 }

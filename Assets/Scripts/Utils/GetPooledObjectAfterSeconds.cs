@@ -26,7 +26,7 @@ public class GetPooledObjectAfterSeconds : MonoBehaviour
 
     public virtual void GetPooledObject()
     {
-        objectPool.GetPooledObject();
+        objectPool.GetPooledObject(transform.position);
         _timer = initalTime;
     }
 }

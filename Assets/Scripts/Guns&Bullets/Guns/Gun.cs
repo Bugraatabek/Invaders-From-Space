@@ -1,25 +1,23 @@
 using UnityEngine;
 
-public class Gun : MonoBehaviour 
+[RequireComponent(typeof(Clip))]
+public class Gun : MonoBehaviour
 {
-    public PlayerController player;
-    public float cooldown;
+    private Clip clip;
+
+    [SerializeField] private float cooldown;
+    
     
     protected bool ShouldShoot {get { return _shouldShoot; }}
     
     private bool _shouldShoot = true;
     private float cooldownCounter = Mathf.Infinity;
+
+    private void Awake() 
+    {
+        clip = GetComponent<Clip>();
+    }
     
-    private void Start() 
-    {
-        player.shoot += Shoot;
-    }
-
-    private void OnDisable() 
-    {
-        player.shoot -= Shoot;
-    }
-
     private void Update() 
     {
         cooldownCounter += Time.deltaTime;
@@ -35,7 +33,8 @@ public class Gun : MonoBehaviour
 
     public virtual void Shoot()
     {
+        if(cooldownCounter < cooldown) return;
+        clip.GetBullet();
         cooldownCounter = 0;
-        //add subclass logic.
     }
 }

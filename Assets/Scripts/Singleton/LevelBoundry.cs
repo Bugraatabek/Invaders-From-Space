@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LevelBoundry : MonoBehaviour
 {
-    LevelBoundry Instance = null;
+    private static LevelBoundry Instance = null;
 
     Camera cam;
     public static float width {get {return _width; } }

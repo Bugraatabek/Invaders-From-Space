@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 870957964484392107}
   - component: {fileID: 4217651135209083809}
   - component: {fileID: -7382392103603771684}
+  - component: {fileID: 6845590181451733030}
   m_Layer: 0
   m_Name: Alien 2
   m_TagString: Alien
@@ -126,8 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd81e355500616f4689d6f55c2d27d88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreValue: 1
+  _scoreValue: 0
   explosion: {fileID: 6665449287174991880, guid: 1a204d428a1644147a705afc5d287c73, type: 3}
+  gun: {fileID: 6845590181451733030}
 --- !u!95 &4217651135209083809
 Animator:
   serializedVersion: 5
@@ -163,3 +165,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagsToCheck:
   - FriendlyBullet
+--- !u!114 &6845590181451733030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142867596145650683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcdbd3b580d68b418a506a139dc27fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 0}
+  cooldown: 0

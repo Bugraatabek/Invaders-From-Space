@@ -12,10 +12,11 @@ GameObject:
   - component: {fileID: 4444851598342871380}
   - component: {fileID: 463951618610424989}
   - component: {fileID: 4292637947383884327}
-  - component: {fileID: 3605379255623322960}
   - component: {fileID: 2074596889}
   - component: {fileID: 2074596895}
   - component: {fileID: 6764811811317628928}
+  - component: {fileID: 1839521120}
+  - component: {fileID: 1839521121}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Player
@@ -107,7 +108,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.1, y: 0.16}
+    oldSize: {x: 0.09, y: 0.16}
     newSize: {x: 0.1, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -133,7 +134,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.1, y: 0.16}
+    oldSize: {x: 0.09, y: 0.16}
     newSize: {x: 0.1, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -142,21 +143,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.095135346, y: 0.04112739}
   m_EdgeRadius: 0
---- !u!114 &3605379255623322960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188569822449188612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15a8481f27b115b4984b8992ec410bf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 2074596889}
-  cooldown: 0.5
-  objectPool: {fileID: 0}
 --- !u!114 &2074596889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,6 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5ec9b82d0a7ab345a9c23bfc2955c11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gun: {fileID: 0}
 --- !u!114 &2074596895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,3 +184,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagsToCheck:
   - EnemyBullet
+--- !u!114 &1839521120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188569822449188612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcdbd3b580d68b418a506a139dc27fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 0.5
+--- !u!114 &1839521121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188569822449188612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35149e7576a706e4faa01bc531d97819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clipSize: 20
+  _objectPool: {fileID: 0}
