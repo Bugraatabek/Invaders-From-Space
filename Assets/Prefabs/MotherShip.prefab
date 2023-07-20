@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2241363266070906907}
   - component: {fileID: 406213061621160072}
   - component: {fileID: 1556385069478006952}
+  - component: {fileID: 7233928273189022389}
   m_Layer: 0
   m_Name: MotherShip
   m_TagString: Untagged
@@ -126,7 +127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16d608dcb06437341a1d97aecb28b920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreValue: 0
 --- !u!114 &406213061621160072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,8 +139,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd81e355500616f4689d6f55c2d27d88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreValue: 5
+  _scoreValue: 40
   explosion: {fileID: 6665449287174991880, guid: 1a204d428a1644147a705afc5d287c73, type: 3}
+  gun: {fileID: 0}
+  hasHealth: 0
 --- !u!114 &1556385069478006952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,3 +157,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagsToCheck:
   - FriendlyBullet
+--- !u!114 &7233928273189022389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2721440008180828973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac75f45c9c3153542a923eb52f9e7b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1
+  isPlayer: 0

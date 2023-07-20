@@ -36,7 +36,7 @@ public class AlienMover : MonoBehaviour
                 AlienList.GetListedGameObject(i).transform.position -= _horizontalStepLength;
             }
 
-            if(AlienList.GetListedGameObject(i).transform.position.x > LevelBoundry.widthForAlienMaster || AlienList.GetListedGameObject(i).transform.position.x < -LevelBoundry.widthForAlienMaster)
+            if(AlienList.GetListedGameObject(i).transform.position.x > LevelBoundry.width -0.40f || AlienList.GetListedGameObject(i).transform.position.x < -(LevelBoundry.width -0.40f))
             {
                 hitMax++;
             }
@@ -60,6 +60,5 @@ public class AlienMover : MonoBehaviour
             return MAX_MOVE_SPEED;
         }
         return moveSpeed;
-        
     }
 }

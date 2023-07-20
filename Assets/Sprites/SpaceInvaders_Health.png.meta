@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Health_0
+      name: Health_5
       rect:
         serializedVersion: 2
         x: 1
@@ -150,7 +150,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Health_1
+      name: Health_4
       rect:
         serializedVersion: 2
         x: 1
@@ -171,7 +171,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Health_2
+      name: Health_3
       rect:
         serializedVersion: 2
         x: 1
@@ -192,7 +192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Health_3
+      name: Health_2
       rect:
         serializedVersion: 2
         x: 1
@@ -213,7 +213,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Health_4
+      name: Health_1
       rect:
         serializedVersion: 2
         x: 1
@@ -234,7 +234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Health_5
+      name: Health_0
       rect:
         serializedVersion: 2
         x: 1
@@ -265,12 +265,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Health_0: -75068677
-      Health_1: 1411276117
-      Health_2: 2064937301
-      Health_3: -1770800388
-      Health_4: -401511689
-      Health_5: 788318072
+      Health_0: 788318072
+      Health_1: -401511689
+      Health_2: -1770800388
+      Health_3: 2064937301
+      Health_4: 1411276117
+      Health_5: -75068677
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

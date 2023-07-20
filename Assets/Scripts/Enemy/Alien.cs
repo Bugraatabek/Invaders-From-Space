@@ -9,18 +9,30 @@ public class Alien : MonoBehaviour, IGetEffectedOnCollision
    [SerializeField] private GameObject explosion;
    [SerializeField] private Gun gun;
 
-   public event Action onDeath;
+   Health health;
 
+
+   private void Awake() 
+   {
+      health = GetComponent<Health>();
+   }
+
+   private void OnEnable() 
+   {
+      health.onDeath += Kill;
+   }
+   
    public void CollisionEffect()
    {
-      Kill();
+      health.TakeDamage(-1);
    }
 
    public void Kill()
    {
+      PlayerUI.Instance.UpdateScore(_scoreValue);
       AlienList.RemoveFromList(gameObject);
       Spawner.Spawn(explosion, transform.position);
-      onDeath?.Invoke();
+
       gameObject.SetActive(false);
    }
 

@@ -8,6 +8,7 @@ TagManager:
   - EnemyBullet
   - FriendlyBullet
   - Shield
+  - FriendlyBulletPool
   layers:
   - Default
   - TransparentFX

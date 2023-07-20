@@ -16,8 +16,9 @@ public class Spawner : MonoBehaviour
         }
     }
     
-    public static void Spawn(GameObject objectToSpawn, Vector3 spawnPosition)
+    public static GameObject Spawn(GameObject objectToSpawn, Vector3 spawnPosition)
     {
         GameObject objectInstance = Instantiate(objectToSpawn, spawnPosition, Quaternion.identity);
+        return objectInstance;
     }
 }
