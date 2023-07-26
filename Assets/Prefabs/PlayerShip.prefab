@@ -13,13 +13,10 @@ GameObject:
   - component: {fileID: 463951618610424989}
   - component: {fileID: 4292637947383884327}
   - component: {fileID: 2074596895}
-  - component: {fileID: 6764811811317628928}
   - component: {fileID: 1839521121}
-  - component: {fileID: 1839521122}
   - component: {fileID: 8082314206526769045}
   - component: {fileID: 6638778614796904833}
   - component: {fileID: 7219122173672876984}
-  - component: {fileID: 1839521135}
   - component: {fileID: 3465069552225636333}
   m_Layer: 0
   m_Name: PlayerShip
@@ -161,20 +158,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 5
   isPlayer: 1
---- !u!114 &6764811811317628928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188569822449188612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee15928ce0856942b2f4958e7c0def4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tagsToCheck:
-  - EnemyBullet
 --- !u!114 &1839521121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,21 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _clipSize: 40
-  _objectPool: {fileID: 0}
---- !u!114 &1839521122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188569822449188612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63515306c0aead41a593dc6fefcf607, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _gun: {fileID: 7219122173672876984}
-  equipmentSlots: []
+  _bulletPool: {fileID: 0}
 --- !u!114 &8082314206526769045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,20 +211,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cooldown: 0.5
   _damage: 0
---- !u!114 &1839521135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188569822449188612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b224de9e1598934eb9e740d36406e55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slots: []
-  _coins: 100
 --- !u!114 &3465069552225636333
 MonoBehaviour:
   m_ObjectHideFlags: 0

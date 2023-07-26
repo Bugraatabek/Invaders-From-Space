@@ -1,12 +1,12 @@
 using System;
 using UnityEngine;
 
-public class Health : MonoBehaviour,IGetEffectedOnCollision
+public class Health : MonoBehaviour
 {
-    [SerializeField] private float maxHealth;
+    [SerializeField] private int maxHealth;
     [SerializeField] private bool isPlayer = false;
     
-    private float currentHealth;
+    private int currentHealth;
    
     public event Action onDeath;
     public event Action onTakeDamage;
@@ -24,14 +24,11 @@ public class Health : MonoBehaviour,IGetEffectedOnCollision
         }
     }
 
-    public void CollisionEffect()
-    {
-        TakeDamage(-1);
-    }
-
     public void TakeDamage(int damage)
     {
-        currentHealth += damage;
+        damage = Math.Abs(damage);
+
+        currentHealth -= damage;
         onTakeDamage?.Invoke();
         
         if(isPlayer) //Refactor
@@ -52,8 +49,28 @@ public class Health : MonoBehaviour,IGetEffectedOnCollision
         }
     }
 
+    public float GetCurrentHealth()
+    {
+        return currentHealth;
+    }
+
     public float GetFraction()
     {
-        return (currentHealth / maxHealth);
+        return ((float)currentHealth / (float)maxHealth);
+    }
+
+    public void Heal(int amount)
+    {
+        currentHealth += amount;
+        if(currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+        
+        if(isPlayer) //Refactor
+        {
+            PlayerUI.Instance.UpdateHealth(currentHealth);
+        }
+        
     }
 }

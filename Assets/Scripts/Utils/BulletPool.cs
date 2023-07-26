@@ -3,40 +3,41 @@ using UnityEngine;
 
 public class BulletPool : MonoBehaviour 
 {
-    // private Queue<Bullet> pooledBullets;
-    // [SerializeField] private GameObject objectPrefab;
-    // [SerializeField] private int poolSize;
+    private Queue<Bullet> pooledBullets;
+    [SerializeField] private Bullet bulletPrefab;
+    [SerializeField] private int poolSize;
 
-    // private void Awake() 
-    // {
-    //     pooledBullets = new Queue<Bullet>();
-    //     for (int i = 0; i < poolSize; i++)
-    //     {
-    //         GameObject obj = Instantiate(objectPrefab, transform.parent);
-    //         obj.SetActive(false);
-    //         pooledBullets.Enqueue(Bullet);
-    //     }
-    // }
+    private void Awake() 
+    {
+        pooledBullets = new Queue<Bullet>();
+        for (int i = 0; i < poolSize; i++)
+        {
+            Bullet bullet = Instantiate(bulletPrefab, transform.parent);
+            bullet.gameObject.SetActive(false);
+            pooledBullets.Enqueue(bullet);
+        }
+    }
 
-    // public GameObject GetPooledObject()
-    // {
-    //     Bullet bulletToGet = pooledBullets.Dequeue();
-    //     bulletToGet.gameObject.SetActive(true);
-    //     pooledBullets.Enqueue(bulletToGet);
-    //     return bulletToGet;
-    // }
+    public Bullet GetPooledBullet()
+    {
+        Bullet bulletToGet = pooledBullets.Dequeue();
+        bulletToGet.gameObject.SetActive(true);
+        pooledBullets.Enqueue(bulletToGet);
+        return bulletToGet;
+    }
 
-    // public GameObject GetPooledObject(Vector3 spawnLocation)
-    // {
-    //     GameObject objectToGet = pooledBullets.Dequeue();
-    //     objectToGet.transform.position = spawnLocation;
-    //     objectToGet.SetActive(true);
-    //     pooledBullets.Enqueue(objectToGet);
-    //     return objectToGet;
-    // }
+    public Bullet GetPooledBullet(Vector3 spawnLocation, int damage)
+    {
+        Bullet bulletToGet = pooledBullets.Dequeue();
+        bulletToGet.SetDamage(damage);
+        bulletToGet.transform.position = spawnLocation;
+        bulletToGet.gameObject.SetActive(true);
+        pooledBullets.Enqueue(bulletToGet);
+        return bulletToGet;
+    }
 
-    // public void ReleasePooledObject(GameObject obj)
-    // {
-    //     obj.SetActive(false);
-    // }    
+    public void ReleasePooledBullet(Bullet bullet)
+    {
+        bullet.gameObject.SetActive(false);
+    }    
 }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7788149524801002344}
   - component: {fileID: 3063086092227828852}
   - component: {fileID: 2163957143029050384}
-  - component: {fileID: 7748510032662175552}
+  - component: {fileID: 1406246619432705727}
   m_Layer: 0
   m_Name: SpaceInvaders_5
   m_TagString: Shield
@@ -104,7 +104,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.14}
+    oldSize: {x: 0.15, y: 0.14}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -130,8 +130,7 @@ MonoBehaviour:
   - {fileID: -1043126537, guid: 04de534f88a35a042969a64015616917, type: 3}
   - {fileID: 1106970391, guid: 04de534f88a35a042969a64015616917, type: 3}
   - {fileID: 362919694, guid: 04de534f88a35a042969a64015616917, type: 3}
-  health: 0
---- !u!114 &7748510032662175552
+--- !u!114 &1406246619432705727
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,12 +139,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7788149524801002350}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee15928ce0856942b2f4958e7c0def4, type: 3}
+  m_Script: {fileID: 11500000, guid: ac75f45c9c3153542a923eb52f9e7b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagsToCheck:
-  - EnemyBullet
-  - FriendlyBullet
+  maxHealth: 0
+  isPlayer: 0
 --- !u!1 &7788149525099308678
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,7 +189,7 @@ GameObject:
   - component: {fileID: 7788149525624218778}
   - component: {fileID: 8958223930731837623}
   - component: {fileID: 814166654938766923}
-  - component: {fileID: 8542996153607529646}
+  - component: {fileID: 1470980997489726789}
   m_Layer: 0
   m_Name: SpaceInvaders_9
   m_TagString: Shield
@@ -283,7 +281,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.14}
+    oldSize: {x: 0.15, y: 0.14}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -309,8 +307,7 @@ MonoBehaviour:
   - {fileID: -1866186916, guid: 04de534f88a35a042969a64015616917, type: 3}
   - {fileID: 1657798979, guid: 04de534f88a35a042969a64015616917, type: 3}
   - {fileID: 786061269, guid: 04de534f88a35a042969a64015616917, type: 3}
-  health: 0
---- !u!114 &8542996153607529646
+--- !u!114 &1470980997489726789
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -319,9 +316,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7788149525624218776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee15928ce0856942b2f4958e7c0def4, type: 3}
+  m_Script: {fileID: 11500000, guid: ac75f45c9c3153542a923eb52f9e7b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagsToCheck:
-  - EnemyBullet
-  - FriendlyBullet
+  maxHealth: 0
+  isPlayer: 0

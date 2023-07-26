@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Mover : MonoBehaviour 
@@ -29,5 +30,10 @@ public class Mover : MonoBehaviour
         {
             transform.Translate(Vector2.left * Time.deltaTime * speed);
         }
+    }
+
+    public void IncreaseSpeed(float amount)
+    {
+        speed += amount;
     }
 }

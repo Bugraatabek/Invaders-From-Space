@@ -40,4 +40,14 @@ public class Life : MonoBehaviour
             print("you're dead, game is over");
         }
     }
+
+    public void IncreaseLife(int amount)
+    {
+        currentLifes += amount;
+        if(currentLifes > maxLifes)
+        {
+            currentLifes = maxLifes;
+        }
+        PlayerUI.Instance.UpdateLives(currentLifes);
+    }
 }

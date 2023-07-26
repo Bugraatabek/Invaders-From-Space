@@ -3,36 +3,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Alien : MonoBehaviour, IGetEffectedOnCollision
+public class Alien : MonoBehaviour
 {
    [SerializeField] private int _scoreValue;
    [SerializeField] private GameObject explosion;
    [SerializeField] private Gun gun;
 
+   PickupDropper pickupDropper;
    Health health;
 
 
    private void Awake() 
    {
       health = GetComponent<Health>();
+      pickupDropper = GetComponent<PickupDropper>();
    }
 
    private void OnEnable() 
    {
       health.onDeath += Kill;
    }
-   
-   public void CollisionEffect()
+
+   private void OnDisable() 
    {
-      health.TakeDamage(-1);
+      health.onDeath -= Kill;
    }
 
    public void Kill()
    {
       PlayerUI.Instance.UpdateScore(_scoreValue);
       AlienList.RemoveFromList(gameObject);
-      Spawner.Spawn(explosion, transform.position);
-
+      Instantiate(explosion, transform.position, Quaternion.identity);
+      pickupDropper.DropPickup();
+      
       gameObject.SetActive(false);
    }
 

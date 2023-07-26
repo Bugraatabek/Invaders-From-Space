@@ -2,36 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shield : MonoBehaviour,IGetEffectedOnCollision
+[RequireComponent(typeof(Health))]
+public class Shield : MonoBehaviour
 {
     [SerializeField] private Sprite[] states;
-    [SerializeField] private int health;
+    Health health;
     private SpriteRenderer spriteRenderer;
 
     private void Awake() 
     {
-        health = 4;
+        health = GetComponent<Health>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-    
-    public void CollisionEffect()
+
+    private void OnEnable() 
     {
-        health--;
-        if (health <= 0) 
+        health.onTakeDamage += UpdateSprite;
+    }
+
+    private void OnDisable() 
+    {
+        health.onTakeDamage -= UpdateSprite;
+    }
+    
+    public void UpdateSprite()
+    {
+        if (health.GetCurrentHealth() <= 0) 
         { 
             Destroy(gameObject);
             return;
         }
-        spriteRenderer.sprite = states[health - 1];
-        
-        
+        spriteRenderer.sprite = states[(int)health.GetCurrentHealth() - 1];
     }
-
-    // private void OnTriggerEnter2D(Collider2D other) 
-    // {
-    //     if(other.gameObject.CompareTag("EnemyBullet") || other.gameObject.CompareTag("FriendlyBullet"))
-    //     {
-    //         health--;
-    //     }
-    // }
 }

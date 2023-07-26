@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 5794782637978111531}
   - component: {fileID: -2418181534043395500}
   - component: {fileID: 7149947018522946096}
-  - component: {fileID: 3894593300858334536}
   - component: {fileID: -6855791691825996023}
   - component: {fileID: 3111573011595450098}
   - component: {fileID: -6500832790254822405}
+  - component: {fileID: -4796125893807185953}
   m_Layer: 0
   m_Name: Alien 5
   m_TagString: Alien
@@ -154,20 +154,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3894593300858334536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3874080189608444433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee15928ce0856942b2f4958e7c0def4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tagsToCheck:
-  - FriendlyBullet
 --- !u!114 &-6855791691825996023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cooldown: 1
+  _damage: 0
 --- !u!114 &3111573011595450098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _clipSize: 12
-  _objectPool: {fileID: 0}
+  _bulletPool: {fileID: 0}
 --- !u!114 &-6500832790254822405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,6 +196,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   isPlayer: 0
+--- !u!114 &-4796125893807185953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3874080189608444433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d65c74d3152a4749a9e5491459c01de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropLibrary: {fileID: 11400000, guid: db8fa028cfce4eb4895aba87ddaff322, type: 2}
 --- !u!1001 &2539661593658909952
 PrefabInstance:
   m_ObjectHideFlags: 0

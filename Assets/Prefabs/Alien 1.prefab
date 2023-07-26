@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 6566282516675665024}
   - component: {fileID: 3007442198190614989}
   - component: {fileID: 587484936341215428}
-  - component: {fileID: -6150302915829277866}
   - component: {fileID: 4988135338249952036}
   - component: {fileID: 432169014699128762}
   - component: {fileID: 5232482397633068857}
+  - component: {fileID: 4895417552591379845}
   m_Layer: 0
   m_Name: Alien 1
   m_TagString: Alien
@@ -154,20 +154,6 @@ MonoBehaviour:
   _scoreValue: 1
   explosion: {fileID: 6665449287174991880, guid: 1a204d428a1644147a705afc5d287c73, type: 3}
   gun: {fileID: 4988135338249952036}
---- !u!114 &-6150302915829277866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1009206682556141897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee15928ce0856942b2f4958e7c0def4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tagsToCheck:
-  - FriendlyBullet
 --- !u!114 &4988135338249952036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cooldown: 1
+  _damage: 0
 --- !u!114 &432169014699128762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _clipSize: 12
-  _objectPool: {fileID: 0}
+  _bulletPool: {fileID: 0}
 --- !u!114 &5232482397633068857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,6 +196,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   isPlayer: 0
+--- !u!114 &4895417552591379845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009206682556141897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d65c74d3152a4749a9e5491459c01de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropLibrary: {fileID: 11400000, guid: db8fa028cfce4eb4895aba87ddaff322, type: 2}
 --- !u!1001 &5052565411517249272
 PrefabInstance:
   m_ObjectHideFlags: 0

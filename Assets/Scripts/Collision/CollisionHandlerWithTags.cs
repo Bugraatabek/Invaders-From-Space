@@ -5,11 +5,11 @@ public class CollisionHandlerWithTags : CollisionHandler
 {
     [SerializeField] private List<string> tagsToCheck = new List<string>();
     
-    public override void OnCollision(Collider2D other)
+    public override void OnTriggerEnter2D(Collider2D other)
     {
         if(tagsToCheck.Contains(other.gameObject.tag))
         {
-            base.OnCollision(other);
+            base.OnTriggerEnter2D(other);
         }
     }
 }

@@ -18,6 +18,7 @@ public class PlayerUI : MonoBehaviour
     public Image healthBar;
     public Sprite[] healthBars;
     
+    private int _coins;
     private int _score;
     private int _highscore;
     private int _wave;
@@ -25,6 +26,8 @@ public class PlayerUI : MonoBehaviour
     
     private Color32 _active = new Color(1, 1, 1, 1);
     private Color32 _inactive = new Color(1, 1, 1, 0.25f);
+
+    GameObject player;
     
     private void Awake() 
     {
@@ -37,7 +40,9 @@ public class PlayerUI : MonoBehaviour
             Instance = this;
         }
         _score = 0;
+        _coins = 0;
         UpdateScore(_score);
+        UpdateCoins(_coins);
     }
 
     public void UpdateHealth(float currentHealth)
@@ -75,8 +80,9 @@ public class PlayerUI : MonoBehaviour
         waveText.text = _wave.ToString();
     }
 
-    public void UpdateCoins()
+    public void UpdateCoins(int value)
     {
-        coinText.text = Inventory.Instance.CurrentCoinsCount.ToString();
+        _coins += value;
+        coinText.text = _coins.ToString();
     }
 }

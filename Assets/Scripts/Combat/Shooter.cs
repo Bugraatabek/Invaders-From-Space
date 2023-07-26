@@ -1,15 +1,12 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Equipment))]
 public class Shooter : MonoBehaviour 
 {
-    private Equipment _equipment;
     private Gun _gun;
 
     private void Awake() 
     {
-        _equipment = GetComponent<Equipment>();
-        _gun = _equipment.GetGun();
+        _gun = GetComponent<Gun>();
     }
 
     private void OnEnable() 
