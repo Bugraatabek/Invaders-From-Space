@@ -4,6 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(Health))]
 public class Life : MonoBehaviour 
 {
+    public event Action<int> observeLives;
     Health health;
     [SerializeField] private int maxLifes;
 
@@ -28,13 +29,13 @@ public class Life : MonoBehaviour
 
     private void Start()
     {
-        PlayerUI.Instance.UpdateLives(currentLifes);
+        observeLives?.Invoke(currentLifes);
     }
 
     private void UpdateLife()
     {
         currentLifes --;
-        PlayerUI.Instance.UpdateLives(currentLifes);
+        observeLives?.Invoke(currentLifes);
         if(currentLifes <= 0)
         {
             print("you're dead, game is over");
@@ -48,6 +49,6 @@ public class Life : MonoBehaviour
         {
             currentLifes = maxLifes;
         }
-        PlayerUI.Instance.UpdateLives(currentLifes);
+        observeLives?.Invoke(currentLifes);
     }
 }

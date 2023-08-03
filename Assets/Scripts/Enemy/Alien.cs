@@ -11,6 +11,7 @@ public class Alien : MonoBehaviour
 
    PickupDropper pickupDropper;
    Health health;
+   public static event Action<int> scoreIncreased;
 
 
    private void Awake() 
@@ -31,7 +32,7 @@ public class Alien : MonoBehaviour
 
    public void Kill()
    {
-      PlayerUI.Instance.UpdateScore(_scoreValue);
+      scoreIncreased?.Invoke(_scoreValue);
       AlienList.RemoveFromList(gameObject);
       Instantiate(explosion, transform.position, Quaternion.identity);
       pickupDropper.DropPickup();

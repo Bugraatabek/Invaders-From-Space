@@ -10,6 +10,7 @@ public class Health : MonoBehaviour
    
     public event Action onDeath;
     public event Action onTakeDamage;
+    public event Action<int> observeCurrentHealth;
 
     private void Awake() 
     {
@@ -18,10 +19,7 @@ public class Health : MonoBehaviour
 
     private void Start() 
     {
-        if(isPlayer) //Refactor
-        {
-            PlayerUI.Instance.UpdateHealth(currentHealth);
-        }
+        observeCurrentHealth?.Invoke(currentHealth);
     }
 
     public void TakeDamage(int damage)
@@ -30,20 +28,12 @@ public class Health : MonoBehaviour
 
         currentHealth -= damage;
         onTakeDamage?.Invoke();
-        
-        if(isPlayer) //Refactor
-        {
-            PlayerUI.Instance.UpdateHealth(currentHealth);
-        }
-        
+        observeCurrentHealth?.Invoke(currentHealth);
 
         if(currentHealth <= 0)
         {
             currentHealth = maxHealth;
-            if(isPlayer) //Refactor
-            {
-                PlayerUI.Instance.UpdateHealth(currentHealth);
-            }
+            observeCurrentHealth?.Invoke(currentHealth);
             onTakeDamage?.Invoke();
             onDeath?.Invoke();
         }
@@ -66,11 +56,7 @@ public class Health : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
-        
-        if(isPlayer) //Refactor
-        {
-            PlayerUI.Instance.UpdateHealth(currentHealth);
-        }
+        observeCurrentHealth?.Invoke(currentHealth);
         
     }
 }

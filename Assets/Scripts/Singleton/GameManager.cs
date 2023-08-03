@@ -7,7 +7,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public GameObject[] allAlienSets;
     private GameObject currentSet;
-    private Vector2 spawnPos = new Vector2(0,10);
+    [SerializeField] private BulletPool alienBulletPool;
+    private Vector2 spawnPos = new Vector2(0,0);
     
     private void Awake() 
     {
@@ -39,6 +40,11 @@ public class GameManager : MonoBehaviour
         }
         yield return new WaitForSeconds(3);
         currentSet = Instantiate(allAlienSets[Random.Range(0,allAlienSets.Length)], spawnPos, Quaternion.identity);
+        foreach (var clip in currentSet.GetComponentsInChildren<Clip>())
+        {
+            clip.SetBulletPool(alienBulletPool);
+        }
+
         PlayerUI.Instance.UpdateWave();
     }
 }
