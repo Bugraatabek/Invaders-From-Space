@@ -1,22 +1,27 @@
+using System;
 using UnityEngine;
 
 public class Shooter : MonoBehaviour 
 {
     private Gun _gun;
+    [SerializeField] private Gun[] guns;
+
+    public event Action<Gun> observeGun;
 
     private void Awake() 
     {
         _gun = GetComponent<Gun>();
+        observeGun?.Invoke(_gun);
     }
 
-    private void OnEnable() 
+    private void Start() 
     {
-        InputReader.shoot += Shoot;
+        InputReader.instance.shoot += Shoot;
     }
 
     private void OnDisable() 
     {
-        InputReader.shoot -= Shoot;
+        InputReader.instance.shoot -= Shoot;
     }
 
     public void Shoot()
@@ -27,5 +32,22 @@ public class Shooter : MonoBehaviour
             return;
         }
         _gun.Shoot();
+    }
+
+    public void SetGun(EGunType gunType)
+    {
+        foreach (var gun in guns)
+        {
+            if(gun.GetGunType() == gunType)
+            {
+                gun.gameObject.SetActive(true);
+                _gun = gun;
+                observeGun?.Invoke(_gun);
+            }
+            else
+            {
+                gun.gameObject.SetActive(false);
+            }
+        }
     }
 }

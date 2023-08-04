@@ -51,6 +51,7 @@ public class Health : MonoBehaviour
 
     public void Heal(int amount)
     {
+        amount = Math.Abs(amount);
         currentHealth += amount;
         if(currentHealth > maxHealth)
         {

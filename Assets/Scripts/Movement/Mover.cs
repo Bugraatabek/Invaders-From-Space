@@ -4,16 +4,20 @@ using UnityEngine;
 public class Mover : MonoBehaviour 
 {
     [SerializeField] private float speed = 3;
-    private void OnEnable() 
+    public event Action<float> observeSpeed;
+    
+    private void Start() 
     {
-        InputReader.moveLeft += MoveLeft;
-        InputReader.moveRight += MoveRight;
+        observeSpeed?.Invoke(speed);
+        InputReader.instance.moveLeft += MoveLeft;
+        InputReader.instance.moveRight += MoveRight;
     }
+    
 
     private void OnDisable() 
     {
-        InputReader.moveLeft -= MoveLeft;
-        InputReader.moveRight -= MoveRight;
+        InputReader.instance.moveLeft -= MoveLeft;
+        InputReader.instance.moveRight -= MoveRight;
     }
 
     private void MoveRight()
@@ -32,8 +36,9 @@ public class Mover : MonoBehaviour
         }
     }
 
-    public void IncreaseSpeed(float amount)
+    public void SetSpeed(float speedAmount)
     {
-        speed += amount;
+        speed = speedAmount;
+        observeSpeed?.Invoke(speed);
     }
 }

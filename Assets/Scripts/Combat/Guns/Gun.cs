@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Clip))]
@@ -5,6 +6,7 @@ public class Gun : MonoBehaviour
 {
     private Clip _clip;
     
+    [SerializeField] private EGunType gunType;
     [SerializeField] private float _cooldown;
     [SerializeField] private int _damage;
     
@@ -41,5 +43,15 @@ public class Gun : MonoBehaviour
         }
         _clip.GetBullet(_damage);
         cooldownCounter = 0;
+    }
+
+    public EGunType GetGunType()
+    {
+        return gunType;
+    }
+
+    public int GetDamage()
+    {
+        return _damage;
     }
 }

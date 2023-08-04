@@ -5,16 +5,20 @@ using UnityEngine.UI;
 
 public class LivesUI : MonoBehaviour
 {
-    Life playerLives;
-    public Image[] lifeSprites;
+    [SerializeField] Life playerLives;
+    [SerializeField] private Image[] lifeSprites;
     private void Awake() 
     {
         playerLives = GameObject.FindWithTag("Player").GetComponent<Life>();
     }
 
-    private void Start() 
+    private void OnEnable() 
     {
         playerLives.observeLives += UpdateUI;
+    }
+
+    private void OnDisable() {
+        playerLives.observeLives -= UpdateUI;
     }
 
     private void UpdateUI(int currentLives)

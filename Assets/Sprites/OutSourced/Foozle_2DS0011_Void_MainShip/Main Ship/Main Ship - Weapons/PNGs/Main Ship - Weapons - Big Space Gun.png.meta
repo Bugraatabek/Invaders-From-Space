@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,7 +127,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 20
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d296483f85f8664fb98b28078391d9b
+      internalID: -1383395908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 20
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1231737529d077a4d852211718b9c843
+      internalID: -716706009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 20
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8ac9c2b00a36c44be7eee75463999c
+      internalID: 975556258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 20
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceff71bb40ce6c649bf49f4c7ac5455d
+      internalID: -1193494902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 20
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b7794147c80a7489b53cbd33837184
+      internalID: 54159774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 20
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dfc23bbbe395c4d9182c5385037d0b
+      internalID: -939121372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 20
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dae00b7d1ec7343825528c5442ed6b
+      internalID: 2029188602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 14
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0788ef3fcbed1184486a33cd4e48acf1
+      internalID: 1560102108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_11
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 14
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0d355c8f3b7f64c98da0903912e9e7
+      internalID: 1301476193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_12
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 16
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f25536bb8a67941a58fc4ea93a7637
+      internalID: -46797173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_13
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 18
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1532fc2d84fed4b4693c21f104c60bef
+      internalID: -549696805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Big Space Gun_14
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 20
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7820c02fc6c32424ca22077cde7887e9
+      internalID: -484087850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +390,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Main Ship - Weapons - Big Space Gun_0: -713725456
+      Main Ship - Weapons - Big Space Gun_1: -2019504760
+      Main Ship - Weapons - Big Space Gun_10: 1560102108
+      Main Ship - Weapons - Big Space Gun_11: 1301476193
+      Main Ship - Weapons - Big Space Gun_12: -46797173
+      Main Ship - Weapons - Big Space Gun_13: -549696805
+      Main Ship - Weapons - Big Space Gun_14: -484087850
+      Main Ship - Weapons - Big Space Gun_2: 88631065
+      Main Ship - Weapons - Big Space Gun_3: -1383395908
+      Main Ship - Weapons - Big Space Gun_4: -716706009
+      Main Ship - Weapons - Big Space Gun_5: 975556258
+      Main Ship - Weapons - Big Space Gun_6: -1193494902
+      Main Ship - Weapons - Big Space Gun_7: 54159774
+      Main Ship - Weapons - Big Space Gun_8: -939121372
+      Main Ship - Weapons - Big Space Gun_9: 2029188602
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -34,7 +34,6 @@ public class ShipState : MonoBehaviour
         }
 
         float healthPercentage = (currentHealth/maxHealth * 100);
-        print(healthPercentage);
         if(healthPercentage <= 25)
         {
             _spriteRenderer.sprite = shipStates[3];

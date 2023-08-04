@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1406246619432705727}
   m_Layer: 0
   m_Name: SpaceInvaders_5
-  m_TagString: Shield
+  m_TagString: StaticShield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7788149524801002350}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2f61ec3bf7d71f4cb288145a6953d05, type: 3}
+  m_Script: {fileID: 11500000, guid: 8568b1840f3ebad468f882e934983e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   states:
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac75f45c9c3153542a923eb52f9e7b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  maxHealth: 4
   isPlayer: 0
 --- !u!1 &7788149525099308678
 GameObject:
@@ -155,7 +155,7 @@ GameObject:
   - component: {fileID: 7788149525099308673}
   m_Layer: 0
   m_Name: Shield
-  m_TagString: Shield
+  m_TagString: StaticShield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 1470980997489726789}
   m_Layer: 0
   m_Name: SpaceInvaders_9
-  m_TagString: Shield
+  m_TagString: StaticShield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7788149525624218776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2f61ec3bf7d71f4cb288145a6953d05, type: 3}
+  m_Script: {fileID: 11500000, guid: 8568b1840f3ebad468f882e934983e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   states:
@@ -319,5 +319,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac75f45c9c3153542a923eb52f9e7b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  maxHealth: 4
   isPlayer: 0

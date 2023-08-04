@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class InputReader : MonoBehaviour
 {
-    private static InputReader instance;
+    public static InputReader instance;
     private float speed = 3f;
 
-    public static event Action shoot,moveRight, moveLeft, switchGuns;
+    public event Action shoot,moveRight, moveLeft, switchGuns;
     private float dirx;
 
     private void Awake() 

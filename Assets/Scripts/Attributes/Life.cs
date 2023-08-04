@@ -5,9 +5,9 @@ using UnityEngine;
 public class Life : MonoBehaviour 
 {
     public event Action<int> observeLives;
-    Health health;
+    
     [SerializeField] private int maxLifes;
-
+    private Health health;
     private int currentLifes;
     
     

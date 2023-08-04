@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,7 +127,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 17
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207cee5f05a913541b82025bdf736a4c
+      internalID: -329523286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 17
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0eecf67fc5593438d5ed58adf282e2
+      internalID: 574854870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 17
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314cf80e1f9b28e40a975d3ff5f15920
+      internalID: -471457847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 17
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5cc3cdb93b53c4baa1528886fdddaf
+      internalID: 1915956278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 17
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c88e8848077b0146871150ad5843ca4
+      internalID: -1108379552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 17
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94261c02b88d71b43a1633a036b70ace
+      internalID: 548161698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 17
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2ad9abc7662fb46af27fcbf127e55d
+      internalID: 675822698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_7
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 17
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74abbb1fb3ac44c429ac33e6360ee997
+      internalID: -2059767063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_8
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 17
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda53ee3ef8888a4eb99b2c5c2b466f5
+      internalID: -104390195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_9
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 17
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8118844649ebc0c45b1f5d409487f61c
+      internalID: -1035272004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_10
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 17
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5107cc8b2a21143b7e0f805d481dd9
+      internalID: -696548190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_11
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 17
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5007bf242c438614a8bec4ca4498a49a
+      internalID: -368341875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 17
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a138d8f78382d4d4cab2ba837a0420cd
+      internalID: -1165401135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Zapper_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 17
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0574c83bf77124489afbcde38b2ea2
+      internalID: -1491872438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +432,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Main Ship - Weapons - Zapper_0: -329523286
+      Main Ship - Weapons - Zapper_1: 574854870
+      Main Ship - Weapons - Zapper_10: -696548190
+      Main Ship - Weapons - Zapper_11: -368341875
+      Main Ship - Weapons - Zapper_12: -1165401135
+      Main Ship - Weapons - Zapper_13: -1491872438
+      Main Ship - Weapons - Zapper_2: -471457847
+      Main Ship - Weapons - Zapper_3: 1915956278
+      Main Ship - Weapons - Zapper_4: -1108379552
+      Main Ship - Weapons - Zapper_5: 548161698
+      Main Ship - Weapons - Zapper_6: 675822698
+      Main Ship - Weapons - Zapper_7: -2059767063
+      Main Ship - Weapons - Zapper_8: -104390195
+      Main Ship - Weapons - Zapper_9: -1035272004
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

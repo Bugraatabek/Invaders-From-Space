@@ -12,7 +12,7 @@ public class BulletPool : MonoBehaviour
         pooledBullets = new Queue<Bullet>();
         for (int i = 0; i < poolSize; i++)
         {
-            Bullet bullet = Instantiate(bulletPrefab, transform.parent);
+            Bullet bullet = Instantiate(bulletPrefab, transform);
             bullet.gameObject.SetActive(false);
             pooledBullets.Enqueue(bullet);
         }

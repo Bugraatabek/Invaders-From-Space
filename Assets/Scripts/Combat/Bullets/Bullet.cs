@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour,IDealWithCollision
 {
     protected Vector2 travelDir;
     
-    private float _travelSpeed = 10f;
+    [SerializeField] private float _travelSpeed = 10f;
     private bool _shouldTravel;
     private int _damageToCarry;
     

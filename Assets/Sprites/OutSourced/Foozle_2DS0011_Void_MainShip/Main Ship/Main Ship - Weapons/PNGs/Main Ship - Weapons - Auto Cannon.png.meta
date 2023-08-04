@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,7 +127,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Auto Cannon_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 16
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708b5d8ab9a979b42b02932bb996815c
+      internalID: -1386643503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Auto Cannon_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 16
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b69c7916b2ff384cb555856e42c2d09
+      internalID: -1643574006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Auto Cannon_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 16
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559ab9b26e31f6f4bbada8f33fc9bd2b
+      internalID: -784136509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Auto Cannon_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 16
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6068d3fc442dd1841b014d4179bf78e6
+      internalID: 476181632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Auto Cannon_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 16
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a309216edf70a942b419fd365251953
+      internalID: -654255348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Auto Cannon_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 16
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1ce6fee702e4f459a5f2d3b2af11c8
+      internalID: 1424492292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Weapons - Auto Cannon_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 16
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0e1551de3592e4b99d6fb6a0ea77c9
+      internalID: -209916793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +285,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Main Ship - Weapons - Auto Cannon_0: -1386643503
+      Main Ship - Weapons - Auto Cannon_1: -1643574006
+      Main Ship - Weapons - Auto Cannon_2: -784136509
+      Main Ship - Weapons - Auto Cannon_3: 476181632
+      Main Ship - Weapons - Auto Cannon_4: -654255348
+      Main Ship - Weapons - Auto Cannon_5: 1424492292
+      Main Ship - Weapons - Auto Cannon_6: -209916793
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
