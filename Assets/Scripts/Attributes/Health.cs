@@ -34,7 +34,6 @@ public class Health : MonoBehaviour
         {
             currentHealth = maxHealth;
             observeCurrentHealth?.Invoke(currentHealth);
-            onTakeDamage?.Invoke();
             onDeath?.Invoke();
         }
     }

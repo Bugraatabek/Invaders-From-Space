@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: a897a4f9372162a48b7b8c86c8b3ae57
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 120
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5aa4bcd67aa804aae033c8c119ab26
+      internalID: 653735910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 120
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39426cefef527f429c55e21c181a9ae
+      internalID: 1488243398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_2
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 120
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd439b8623af8054da357119b4cbedb1
+      internalID: -172512028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 120
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fc10ce2b03b0642a6baafcd5eb3c9c
+      internalID: -77713068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 27
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63198ff7128a557439cc833a1d41116a
+      internalID: 712437457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 24
+        width: 72
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297b278852985134e8681c549c9200a1
+      internalID: -1398008352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_6
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 24
+        width: 76
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fdf1bd16d53854aa01a17094a07bc4
+      internalID: -1030562969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 27
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0c7979e6b652b4fa2d46c21a2357ee
+      internalID: 557130583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 24
+        width: 72
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ad759cdf5a3994f84769747c96e4f6
+      internalID: 1050229867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_9
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 24
+        width: 76
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80863982b056a5645814d0354fe40479
+      internalID: -1195630354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_10
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 25
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d38664818f10a84c8a2545cb018ea62
+      internalID: -1185840995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_11
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 21
+        width: 72
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24198df0647ec640b39843cdbc4b0f9
+      internalID: 1964687658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_12
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 18
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8451bd4a30f6ad34680a7108e5a0df7f
+      internalID: -2090915765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_13
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 16
+        width: 58
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f25ad73956491548a16a6ddaf6e5082
+      internalID: -746596857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_16
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 13
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb53bea3379f8f64181470e594bb96fd
+      internalID: 1054380848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_17
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 11
+        width: 66
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9576fe18d45f223429032851f2d37c60
+      internalID: -255901219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_23
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 72
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6e4614c91aca54ebf21e5cc65b6c42
+      internalID: 1560773042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_49
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 24
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a4365ee151e28469c591ae46aeabdf
+      internalID: -58763789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_55
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 16
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4dc217315a2244195b28803375192f
+      internalID: 1239678136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Destruction_58
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 12
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02a5db7692bfad42a68f4dedc58e7a4
+      internalID: 1115696912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3593097723f4b5044bd6c3d671a99e62
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kla'ed - Battlecruiser - Destruction_0: 653735910
+      Kla'ed - Battlecruiser - Destruction_1: 1488243398
+      Kla'ed - Battlecruiser - Destruction_10: -1185840995
+      Kla'ed - Battlecruiser - Destruction_11: 1964687658
+      Kla'ed - Battlecruiser - Destruction_12: -2090915765
+      Kla'ed - Battlecruiser - Destruction_13: -746596857
+      Kla'ed - Battlecruiser - Destruction_14: 1620854848
+      Kla'ed - Battlecruiser - Destruction_15: 1991818825
+      Kla'ed - Battlecruiser - Destruction_16: 1054380848
+      Kla'ed - Battlecruiser - Destruction_17: -255901219
+      Kla'ed - Battlecruiser - Destruction_18: -1976274297
+      Kla'ed - Battlecruiser - Destruction_19: 1744904411
+      Kla'ed - Battlecruiser - Destruction_2: -172512028
+      Kla'ed - Battlecruiser - Destruction_20: 1559993644
+      Kla'ed - Battlecruiser - Destruction_21: -1760169106
+      Kla'ed - Battlecruiser - Destruction_22: -1106489603
+      Kla'ed - Battlecruiser - Destruction_23: 1560773042
+      Kla'ed - Battlecruiser - Destruction_24: -2038717632
+      Kla'ed - Battlecruiser - Destruction_25: 1095842569
+      Kla'ed - Battlecruiser - Destruction_26: 1062464799
+      Kla'ed - Battlecruiser - Destruction_27: 155414493
+      Kla'ed - Battlecruiser - Destruction_28: 125089214
+      Kla'ed - Battlecruiser - Destruction_29: -1440588018
+      Kla'ed - Battlecruiser - Destruction_3: -77713068
+      Kla'ed - Battlecruiser - Destruction_30: 1037331855
+      Kla'ed - Battlecruiser - Destruction_31: 1068955270
+      Kla'ed - Battlecruiser - Destruction_32: 1242774580
+      Kla'ed - Battlecruiser - Destruction_33: -855969287
+      Kla'ed - Battlecruiser - Destruction_34: 1288147665
+      Kla'ed - Battlecruiser - Destruction_35: -135376415
+      Kla'ed - Battlecruiser - Destruction_36: -2063367411
+      Kla'ed - Battlecruiser - Destruction_37: -427132700
+      Kla'ed - Battlecruiser - Destruction_38: -32542560
+      Kla'ed - Battlecruiser - Destruction_39: -507081939
+      Kla'ed - Battlecruiser - Destruction_4: 712437457
+      Kla'ed - Battlecruiser - Destruction_40: -2045122395
+      Kla'ed - Battlecruiser - Destruction_41: 826868627
+      Kla'ed - Battlecruiser - Destruction_42: -1002840422
+      Kla'ed - Battlecruiser - Destruction_43: -96939309
+      Kla'ed - Battlecruiser - Destruction_44: -150442584
+      Kla'ed - Battlecruiser - Destruction_45: 1215661750
+      Kla'ed - Battlecruiser - Destruction_46: -2098045484
+      Kla'ed - Battlecruiser - Destruction_47: 928370460
+      Kla'ed - Battlecruiser - Destruction_48: -1576792097
+      Kla'ed - Battlecruiser - Destruction_49: -58763789
+      Kla'ed - Battlecruiser - Destruction_5: -1398008352
+      Kla'ed - Battlecruiser - Destruction_50: 1250902119
+      Kla'ed - Battlecruiser - Destruction_51: -1619292168
+      Kla'ed - Battlecruiser - Destruction_52: -1882292957
+      Kla'ed - Battlecruiser - Destruction_53: 1871746309
+      Kla'ed - Battlecruiser - Destruction_54: 1746105122
+      Kla'ed - Battlecruiser - Destruction_55: 1239678136
+      Kla'ed - Battlecruiser - Destruction_56: -406790114
+      Kla'ed - Battlecruiser - Destruction_57: 23453356
+      Kla'ed - Battlecruiser - Destruction_58: 1115696912
+      Kla'ed - Battlecruiser - Destruction_59: 2145570971
+      Kla'ed - Battlecruiser - Destruction_6: -1030562969
+      Kla'ed - Battlecruiser - Destruction_60: 79636489
+      Kla'ed - Battlecruiser - Destruction_61: 229495372
+      Kla'ed - Battlecruiser - Destruction_62: -1936116093
+      Kla'ed - Battlecruiser - Destruction_63: -818042545
+      Kla'ed - Battlecruiser - Destruction_64: 1264303891
+      Kla'ed - Battlecruiser - Destruction_65: -285924023
+      Kla'ed - Battlecruiser - Destruction_66: -497130412
+      Kla'ed - Battlecruiser - Destruction_67: -2131252229
+      Kla'ed - Battlecruiser - Destruction_68: -868003275
+      Kla'ed - Battlecruiser - Destruction_69: 948591547
+      Kla'ed - Battlecruiser - Destruction_7: 557130583
+      Kla'ed - Battlecruiser - Destruction_70: 1089148316
+      Kla'ed - Battlecruiser - Destruction_8: 1050229867
+      Kla'ed - Battlecruiser - Destruction_9: -1195630354
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

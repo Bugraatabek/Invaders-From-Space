@@ -14,16 +14,23 @@ public class AnimatiorControllerHandler : MonoBehaviour
 
     private void OnEnable() 
     {
-        InputReader.instance.shoot += SetActive;
+        if(gameObject.transform.tag != "Player") return;
+        InputReader.instance.shoot += Shoot;
     }
 
-    protected virtual void SetActive()
+    public void Shoot()
     {
         animator.SetTrigger("Shoot");
     }
 
+    public void Death()
+    {
+        animator.SetTrigger("Death");
+    }
+
     private void OnDisable()
     {
-        InputReader.instance.shoot -= SetActive;
+        if(gameObject.transform.tag != "Player") return;
+        InputReader.instance.shoot -= Shoot;
     }
 }

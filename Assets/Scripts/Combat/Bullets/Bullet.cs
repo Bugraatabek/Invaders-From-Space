@@ -10,6 +10,7 @@ public class Bullet : MonoBehaviour,IDealWithCollision
     [SerializeField] private float _travelSpeed = 10f;
     private bool _shouldTravel;
     private int _damageToCarry;
+    [SerializeField] EBulletType bulletType;
     
     public virtual void CollisionEffect(GameObject other)
     {
@@ -36,11 +37,15 @@ public class Bullet : MonoBehaviour,IDealWithCollision
     private void OnDisable() 
     {
         _shouldTravel = false;
-        
     }
 
     private void Travel()
     {
         transform.Translate(travelDir * Time.deltaTime * _travelSpeed);
+    }
+
+    public EBulletType GetBulletType()
+    {
+        return bulletType;
     }
 }

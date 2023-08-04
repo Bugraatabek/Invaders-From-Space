@@ -1,0 +1,848 @@
+fileFormatVersion: 2
+guid: afb3bc624415fc74fabc1ba1a5d3a070
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 77
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f605be77ec35442be1be98e71cba0b
+      internalID: -1584416671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 23
+        width: 85
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc0ea4e64cc65840a5f82ad09aca96a
+      internalID: -1731218430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_7
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 24
+        width: 76
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4873b2930e8b4f740b0879ee951cc5e0
+      internalID: -1763583427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_9
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 24
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f9161300d1804489bcc516766733f2
+      internalID: 1159136602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_13
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 26
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bb6439d2a050f4e8f203f0385c5bce
+      internalID: -314881565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_14
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 24
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8883fd5052724478bf299e4d75d3aa
+      internalID: -827035337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_17
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 22
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3b62fc821c2d64eadfa87d0ac818dd
+      internalID: -765612008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_19
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 25
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae84cb1e1dfc9674aacf9efe14d01f25
+      internalID: 670336088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_20
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 22
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6c987e7131f9144a2acd882b367847
+      internalID: 1707866052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_22
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 25
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee32aa467530d54a91f34c535e69ce2
+      internalID: -1798638869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_25
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 24
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9519de44983e29745b16545433f50391
+      internalID: 1161780518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 22
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1455fa807ee18b64aad2a2b3d5fea5e1
+      internalID: 1188062389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 22
+        width: 77
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1280f64cf9ee29a43877c198f04c1f5b
+      internalID: -882976134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_30
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 25
+        width: 86
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72493836a24036446853f1207df9777b
+      internalID: -1087241720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_32
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 24
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9469e91fbf3d242a5d4b944b229518
+      internalID: 2070582635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_33
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 25
+        width: 78
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e883575430fc524daf229b28d8ad303
+      internalID: -645034895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_34
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 25
+        width: 77
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc73cc7297b397041894e1011107311e
+      internalID: 663678242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_36
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 22
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c0893464b8af34d9b0edf0327fbca6
+      internalID: 97076873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_37
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 25
+        width: 79
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbf4ed7b82b8ef4ba601d3f4903e0df
+      internalID: 1681832969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_38
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 25
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9469a7261aa2e4b81571f629ffa3db
+      internalID: 2050451489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_40
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 24
+        width: 75
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751b8fd4ca01d0c48af1da1ba8df8b0b
+      internalID: 852113949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_41
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 24
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87144a8ed6c7214e90b119f31238e9c
+      internalID: 1964260264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_43
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 22
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07918547541b29f47990d37030583a0b
+      internalID: 229476397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_44
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 22
+        width: 80
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102ce62ede929304fb460fde81a49d10
+      internalID: -1367978165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_46
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 24
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944aa45783ad5524ea437d9a79200a48
+      internalID: 807160524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_48
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 25
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bbbd4dba217404ab57756742f1e4f2
+      internalID: 880709524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_49
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 25
+        width: 80
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e3ac1a2673f2a46b5bc241ee9065e2
+      internalID: 1293805428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_51
+      rect:
+        serializedVersion: 2
+        x: 3352
+        y: 22
+        width: 78
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b913544be37cd4e8aa8404220f202b
+      internalID: 323793720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_52
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 22
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9068fd36bfbb38c4db7ea1ac9dcfc941
+      internalID: -2061105194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Battlecruiser - Weapons_54
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 23
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e96e0ff47272e4996f662d2d042c0a
+      internalID: 1867205243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d2c5f194447196c46a4b28c99462b2ec
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kla'ed - Battlecruiser - Weapons_0: -1584416671
+      Kla'ed - Battlecruiser - Weapons_1: -1954412103
+      Kla'ed - Battlecruiser - Weapons_10: -904836072
+      Kla'ed - Battlecruiser - Weapons_11: -1380428287
+      Kla'ed - Battlecruiser - Weapons_12: -1070726461
+      Kla'ed - Battlecruiser - Weapons_13: -314881565
+      Kla'ed - Battlecruiser - Weapons_14: -827035337
+      Kla'ed - Battlecruiser - Weapons_15: -1904677888
+      Kla'ed - Battlecruiser - Weapons_16: -104646745
+      Kla'ed - Battlecruiser - Weapons_17: -765612008
+      Kla'ed - Battlecruiser - Weapons_18: -1851651079
+      Kla'ed - Battlecruiser - Weapons_19: 670336088
+      Kla'ed - Battlecruiser - Weapons_2: -1986925908
+      Kla'ed - Battlecruiser - Weapons_20: 1707866052
+      Kla'ed - Battlecruiser - Weapons_21: 949595297
+      Kla'ed - Battlecruiser - Weapons_22: -1798638869
+      Kla'ed - Battlecruiser - Weapons_23: -473880529
+      Kla'ed - Battlecruiser - Weapons_24: -1929716697
+      Kla'ed - Battlecruiser - Weapons_25: 1161780518
+      Kla'ed - Battlecruiser - Weapons_26: -1106554693
+      Kla'ed - Battlecruiser - Weapons_27: 1188062389
+      Kla'ed - Battlecruiser - Weapons_28: -882976134
+      Kla'ed - Battlecruiser - Weapons_29: -2053597701
+      Kla'ed - Battlecruiser - Weapons_3: -1731218430
+      Kla'ed - Battlecruiser - Weapons_30: -1087241720
+      Kla'ed - Battlecruiser - Weapons_31: -835809931
+      Kla'ed - Battlecruiser - Weapons_32: 2070582635
+      Kla'ed - Battlecruiser - Weapons_33: -645034895
+      Kla'ed - Battlecruiser - Weapons_34: 663678242
+      Kla'ed - Battlecruiser - Weapons_35: 2110169696
+      Kla'ed - Battlecruiser - Weapons_36: 97076873
+      Kla'ed - Battlecruiser - Weapons_37: 1681832969
+      Kla'ed - Battlecruiser - Weapons_38: 2050451489
+      Kla'ed - Battlecruiser - Weapons_39: 1925889827
+      Kla'ed - Battlecruiser - Weapons_4: -1431538261
+      Kla'ed - Battlecruiser - Weapons_40: 852113949
+      Kla'ed - Battlecruiser - Weapons_41: 1964260264
+      Kla'ed - Battlecruiser - Weapons_42: 485897381
+      Kla'ed - Battlecruiser - Weapons_43: 229476397
+      Kla'ed - Battlecruiser - Weapons_44: -1367978165
+      Kla'ed - Battlecruiser - Weapons_45: -1486035749
+      Kla'ed - Battlecruiser - Weapons_46: 807160524
+      Kla'ed - Battlecruiser - Weapons_47: 580737917
+      Kla'ed - Battlecruiser - Weapons_48: 880709524
+      Kla'ed - Battlecruiser - Weapons_49: 1293805428
+      Kla'ed - Battlecruiser - Weapons_5: -951625226
+      Kla'ed - Battlecruiser - Weapons_50: 1336896260
+      Kla'ed - Battlecruiser - Weapons_51: 323793720
+      Kla'ed - Battlecruiser - Weapons_52: -2061105194
+      Kla'ed - Battlecruiser - Weapons_53: 1941619344
+      Kla'ed - Battlecruiser - Weapons_54: 1867205243
+      Kla'ed - Battlecruiser - Weapons_55: 1652385993
+      Kla'ed - Battlecruiser - Weapons_56: 1648693702
+      Kla'ed - Battlecruiser - Weapons_57: -2047956448
+      Kla'ed - Battlecruiser - Weapons_58: -334345764
+      Kla'ed - Battlecruiser - Weapons_59: 1963308116
+      Kla'ed - Battlecruiser - Weapons_6: -1734204323
+      Kla'ed - Battlecruiser - Weapons_60: -17604370
+      Kla'ed - Battlecruiser - Weapons_61: -145551487
+      Kla'ed - Battlecruiser - Weapons_62: 138009092
+      Kla'ed - Battlecruiser - Weapons_63: -1577040383
+      Kla'ed - Battlecruiser - Weapons_64: 1133346835
+      Kla'ed - Battlecruiser - Weapons_65: 906156383
+      Kla'ed - Battlecruiser - Weapons_66: -147152381
+      Kla'ed - Battlecruiser - Weapons_67: 1767292836
+      Kla'ed - Battlecruiser - Weapons_68: -1676816411
+      Kla'ed - Battlecruiser - Weapons_69: 1961242257
+      Kla'ed - Battlecruiser - Weapons_7: -1763583427
+      Kla'ed - Battlecruiser - Weapons_70: 377201775
+      Kla'ed - Battlecruiser - Weapons_8: 569917447
+      Kla'ed - Battlecruiser - Weapons_9: 1159136602
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

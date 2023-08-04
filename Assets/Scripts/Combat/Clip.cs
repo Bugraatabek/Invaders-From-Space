@@ -6,6 +6,7 @@ public class Clip : MonoBehaviour
 {
     [SerializeField] private int _clipSize;
     [SerializeField] private BulletPool _bulletPool;
+    [SerializeField] private EBulletType bulletType;
     public event Action<int> observeBullets;
 
     private int _currentBulletCount;
@@ -14,10 +15,12 @@ public class Clip : MonoBehaviour
     {
         _currentBulletCount = _clipSize;
     }
+
     private void Start() 
     {
         observeBullets?.Invoke(_currentBulletCount);
     }
+
     public void GetBullet(int damage)
     {
         if(_currentBulletCount <= 0)
@@ -39,5 +42,11 @@ public class Clip : MonoBehaviour
     public void SetBulletPool(BulletPool bulletPool)
     {
         _bulletPool = bulletPool;
+        print("Set Bullet Pool To" + bulletPool);
+    }
+
+    public EBulletType GetBulletType()
+    {
+        return bulletType;
     }
 }

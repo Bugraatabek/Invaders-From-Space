@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class AlienList : MonoBehaviour 
 {
-    private static AlienList Instance = null;
+    public static AlienList Instance = null;
 
-    public static List<GameObject> allAliens = new List<GameObject>();
+    [SerializeField] public List<Alien> allAliens = new List<Alien>();
 
     private void Awake() 
     {
@@ -17,32 +17,29 @@ public class AlienList : MonoBehaviour
         {
             Instance = this;
         }
-    }
 
-    private void Start() 
-    {
-        for (int i = 0; i < transform.childCount; i++)
+        foreach (Alien alien in GetComponentsInChildren<Alien>())
         {
-            allAliens.Add(transform.GetChild(i).gameObject);
+            allAliens.Add(alien);
         }
     }
 
-    public static void RemoveFromList(GameObject obj)
+    public void RemoveFromList(Alien alien)
     {
-        allAliens.Remove(obj);
+        allAliens.Remove(alien);
     }
 
-    public static void AddToList(GameObject obj)
+    public void AddToList(Alien alien)
     {
-        allAliens.Add(obj);
+        allAliens.Add(alien);
     }
 
-    public static int GetListCount()
+    public int GetListCount()
     {
         return allAliens.Count;
     }
 
-    public static GameObject GetListedGameObject(int i)
+    public Alien GetListedGameObject(int i)
     {
         return allAliens[i];
     }

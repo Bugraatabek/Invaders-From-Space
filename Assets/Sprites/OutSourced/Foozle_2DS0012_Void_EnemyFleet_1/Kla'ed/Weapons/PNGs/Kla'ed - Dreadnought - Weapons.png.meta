@@ -1,0 +1,1467 @@
+fileFormatVersion: 2
+guid: 42bc1c9622cd9a84fbfe9b5cd7e13c46
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 12
+        width: 76
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d13a58ff6dedd478e01a96e39c583b
+      internalID: 698164354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 12
+        width: 76
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411eb0836cd3e8047bfc18bf88298c7f
+      internalID: 1530643841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ad76805deac2b4ea65b4ae27df2042
+      internalID: 576573268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c2ca3c60572134ea26f6b3ec3e7ca9
+      internalID: -689605142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a080566516cdbd4cba47da26f58a9e0
+      internalID: 39854202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98088b9afcb18c4aa7b38c0bd987517
+      internalID: -1158757996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_6
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02130e25af57ecb40b762f166f8964b2
+      internalID: -219577012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_7
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe822a3c72318574f9907b7bc3b77ce7
+      internalID: -1720143469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_8
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 11
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d7e9b6299429d4aa665212e1002323
+      internalID: 1606392756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_9
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530af560256d61245822631094da809d
+      internalID: 734440275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_10
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e50cb8290f79554c93d7ec11bafa9e0
+      internalID: -2113281739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_11
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b723d8859c4d3f4ba86166b8ab06e03
+      internalID: 906539126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_12
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9f9f42c58c09745baf98caedf697b8
+      internalID: -1081890059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_13
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4948ba28a7fd04f9e3c3c1e90b5261
+      internalID: -43966076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_14
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5846f54b18910ba4aa1afddf210f727c
+      internalID: -2063029904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_15
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4673d489d4f0a854ca5f0bcd28703c2d
+      internalID: -1080545385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_16
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125215eb5a5b51c429c789da54f039f5
+      internalID: -1871254665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_17
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 15
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748bff22a07c064479c962685ea10a62
+      internalID: -1431854425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_18
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ffe1ff7e5000243820b90355a7832f
+      internalID: -1563403616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_19
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ddfbc930f40004bb28229241b60389
+      internalID: -104426643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_20
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3b34647dedcbc43be60854b51e5c93
+      internalID: -670192661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_21
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b72d18d4a798446b594ecd31ce134a
+      internalID: 1362089506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_22
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05570a2883abf5498b57d82a1561626
+      internalID: -1603361872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_23
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 16
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dfa6f396622894ab161e0ec96f5df9
+      internalID: -1337676087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_24
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 12
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bcc537803747741885b56204b4358d
+      internalID: 1398432277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_25
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b4cca28ad492d489cfaa306b9345a9
+      internalID: 76160469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_26
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45357503e37fd6e45948300e7563853f
+      internalID: -389350484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_27
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b52aa9fbec8a24fb3be53dd8496506
+      internalID: -103078690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_28
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd13bcd7d9dd37947844248044442ab3
+      internalID: -1778691597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_29
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4271533ce9e15842b4a304a4a44e44c
+      internalID: 1282025776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_30
+      rect:
+        serializedVersion: 2
+        x: 3865
+        y: 12
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209a5a39ad340bd4dbb0ee700109e408
+      internalID: 1356675273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_31
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 12
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13817722ca731514c8e46a210514449b
+      internalID: 250149901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_32
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7bd0c04716efb4e88568197e820b3f
+      internalID: 649895201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_33
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6864ba18efd606f499a66ead440af0f1
+      internalID: -864265967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_34
+      rect:
+        serializedVersion: 2
+        x: 4377
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336148978969b82418a3346348739069
+      internalID: 453927902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_35
+      rect:
+        serializedVersion: 2
+        x: 4505
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f29ce0d41aa0c469609c590fdc381a
+      internalID: -126421235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_36
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 12
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17415e227055fa4f8668c8e1cc95a75
+      internalID: 363115316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_37
+      rect:
+        serializedVersion: 2
+        x: 4762
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bf46152b56fe042b86dd5c84984963
+      internalID: -1869579450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_38
+      rect:
+        serializedVersion: 2
+        x: 4888
+        y: 12
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec8263dfd4ba734fac6f8e334effe8d
+      internalID: -29180656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_39
+      rect:
+        serializedVersion: 2
+        x: 5018
+        y: 11
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f842d87a57885a41b82e2363120940d
+      internalID: -1539998677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_40
+      rect:
+        serializedVersion: 2
+        x: 5146
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a69651f27a00e46ad7f6d51ceb9b73
+      internalID: 371438639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_41
+      rect:
+        serializedVersion: 2
+        x: 5274
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb57959074f56d3409d3d99ef23d2a12
+      internalID: -2081692548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_42
+      rect:
+        serializedVersion: 2
+        x: 5402
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11d4fcc56d0b0342873ad50246d950a
+      internalID: -1996104946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_43
+      rect:
+        serializedVersion: 2
+        x: 5531
+        y: 15
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdead4c8055f0041ab3ab8659457317
+      internalID: -1218427258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_44
+      rect:
+        serializedVersion: 2
+        x: 5658
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb2ef5b540e1e74cbc6eb5099160f61
+      internalID: -1653933966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_45
+      rect:
+        serializedVersion: 2
+        x: 5785
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab9098c76e310a4da109a4eda0daca5
+      internalID: -382444577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_46
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 15
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea664dfb826191143a9cb7a59b34505d
+      internalID: 1963952568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_47
+      rect:
+        serializedVersion: 2
+        x: 6043
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc41f6eb4d4c964b8fb4e61f564155c
+      internalID: -2117623890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_48
+      rect:
+        serializedVersion: 2
+        x: 6170
+        y: 12
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d2045026315244c8e599728c8943df
+      internalID: -493001602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_49
+      rect:
+        serializedVersion: 2
+        x: 6298
+        y: 12
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3addfa36b13b0f4e85945c6a5576f95
+      internalID: 756178003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_50
+      rect:
+        serializedVersion: 2
+        x: 6425
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439eb1e76dbcfc244aeabe8d29cd3946
+      internalID: -379408892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_51
+      rect:
+        serializedVersion: 2
+        x: 6555
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b26d7aba3708d47a7ed8ee524e2a07
+      internalID: 1826634691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_52
+      rect:
+        serializedVersion: 2
+        x: 6682
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503b2bf712f6a9d489ad179f4f690634
+      internalID: -1903965076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_53
+      rect:
+        serializedVersion: 2
+        x: 6808
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6710ad9ac4102b74080a20af2a52b552
+      internalID: 1223715232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_54
+      rect:
+        serializedVersion: 2
+        x: 6939
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17add1548d218ca48b7f3d4a94a07732
+      internalID: -96273396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_55
+      rect:
+        serializedVersion: 2
+        x: 7066
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10143d3a0a4d3342b50ad81bedaf9c0
+      internalID: -471339936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_56
+      rect:
+        serializedVersion: 2
+        x: 7194
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7345717c377786c44b8aaed420ec1b34
+      internalID: -514239106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_57
+      rect:
+        serializedVersion: 2
+        x: 7322
+        y: 14
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437e0538ca914a046bde948b164098bf
+      internalID: -671370457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_58
+      rect:
+        serializedVersion: 2
+        x: 7452
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a6c9ea72f0cdc4ab2cc5333d332921
+      internalID: -554524749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kla'ed - Dreadnought - Weapons_59
+      rect:
+        serializedVersion: 2
+        x: 7578
+        y: 13
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a27921d5b4e4946b1c0b377406d61e
+      internalID: 483279200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ec0bbd24f66700b43876bb2ff8e7c950
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kla'ed - Dreadnought - Weapons_0: 698164354
+      Kla'ed - Dreadnought - Weapons_1: 1530643841
+      Kla'ed - Dreadnought - Weapons_10: -2113281739
+      Kla'ed - Dreadnought - Weapons_11: 906539126
+      Kla'ed - Dreadnought - Weapons_12: -1081890059
+      Kla'ed - Dreadnought - Weapons_13: -43966076
+      Kla'ed - Dreadnought - Weapons_14: -2063029904
+      Kla'ed - Dreadnought - Weapons_15: -1080545385
+      Kla'ed - Dreadnought - Weapons_16: -1871254665
+      Kla'ed - Dreadnought - Weapons_17: -1431854425
+      Kla'ed - Dreadnought - Weapons_18: -1563403616
+      Kla'ed - Dreadnought - Weapons_19: -104426643
+      Kla'ed - Dreadnought - Weapons_2: 576573268
+      Kla'ed - Dreadnought - Weapons_20: -670192661
+      Kla'ed - Dreadnought - Weapons_21: 1362089506
+      Kla'ed - Dreadnought - Weapons_22: -1603361872
+      Kla'ed - Dreadnought - Weapons_23: -1337676087
+      Kla'ed - Dreadnought - Weapons_24: 1398432277
+      Kla'ed - Dreadnought - Weapons_25: 76160469
+      Kla'ed - Dreadnought - Weapons_26: -389350484
+      Kla'ed - Dreadnought - Weapons_27: -103078690
+      Kla'ed - Dreadnought - Weapons_28: -1778691597
+      Kla'ed - Dreadnought - Weapons_29: 1282025776
+      Kla'ed - Dreadnought - Weapons_3: -689605142
+      Kla'ed - Dreadnought - Weapons_30: 1356675273
+      Kla'ed - Dreadnought - Weapons_31: 250149901
+      Kla'ed - Dreadnought - Weapons_32: 649895201
+      Kla'ed - Dreadnought - Weapons_33: -864265967
+      Kla'ed - Dreadnought - Weapons_34: 453927902
+      Kla'ed - Dreadnought - Weapons_35: -126421235
+      Kla'ed - Dreadnought - Weapons_36: 363115316
+      Kla'ed - Dreadnought - Weapons_37: -1869579450
+      Kla'ed - Dreadnought - Weapons_38: -29180656
+      Kla'ed - Dreadnought - Weapons_39: -1539998677
+      Kla'ed - Dreadnought - Weapons_4: 39854202
+      Kla'ed - Dreadnought - Weapons_40: 371438639
+      Kla'ed - Dreadnought - Weapons_41: -2081692548
+      Kla'ed - Dreadnought - Weapons_42: -1996104946
+      Kla'ed - Dreadnought - Weapons_43: -1218427258
+      Kla'ed - Dreadnought - Weapons_44: -1653933966
+      Kla'ed - Dreadnought - Weapons_45: -382444577
+      Kla'ed - Dreadnought - Weapons_46: 1963952568
+      Kla'ed - Dreadnought - Weapons_47: -2117623890
+      Kla'ed - Dreadnought - Weapons_48: -493001602
+      Kla'ed - Dreadnought - Weapons_49: 756178003
+      Kla'ed - Dreadnought - Weapons_5: -1158757996
+      Kla'ed - Dreadnought - Weapons_50: -379408892
+      Kla'ed - Dreadnought - Weapons_51: 1826634691
+      Kla'ed - Dreadnought - Weapons_52: -1903965076
+      Kla'ed - Dreadnought - Weapons_53: 1223715232
+      Kla'ed - Dreadnought - Weapons_54: -96273396
+      Kla'ed - Dreadnought - Weapons_55: -471339936
+      Kla'ed - Dreadnought - Weapons_56: -514239106
+      Kla'ed - Dreadnought - Weapons_57: -671370457
+      Kla'ed - Dreadnought - Weapons_58: -554524749
+      Kla'ed - Dreadnought - Weapons_59: 483279200
+      Kla'ed - Dreadnought - Weapons_6: -219577012
+      Kla'ed - Dreadnought - Weapons_7: -1720143469
+      Kla'ed - Dreadnought - Weapons_8: 1606392756
+      Kla'ed - Dreadnought - Weapons_9: 734440275
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

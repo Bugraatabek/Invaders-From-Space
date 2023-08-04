@@ -6,6 +6,7 @@ public class BulletPool : MonoBehaviour
     private Queue<Bullet> pooledBullets;
     [SerializeField] private Bullet bulletPrefab;
     [SerializeField] private int poolSize;
+    [SerializeField] private EBulletType bulletType;
 
     private void Awake() 
     {
@@ -28,6 +29,7 @@ public class BulletPool : MonoBehaviour
 
     public Bullet GetPooledBullet(Vector3 spawnLocation, int damage)
     {
+        print("Getting Bullet From Pool");
         Bullet bulletToGet = pooledBullets.Dequeue();
         bulletToGet.SetDamage(damage);
         bulletToGet.transform.position = spawnLocation;
@@ -39,5 +41,12 @@ public class BulletPool : MonoBehaviour
     public void ReleasePooledBullet(Bullet bullet)
     {
         bullet.gameObject.SetActive(false);
-    }    
+    }
+
+    public EBulletType GetBulletType()
+    {
+        return bulletType;
+    }
+
+      
 }

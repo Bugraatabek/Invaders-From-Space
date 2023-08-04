@@ -25,36 +25,36 @@ public class AlienMover : MonoBehaviour
     private void MoveEnemies()
     {
         int hitMax = 0;
-        for (int i = 0; i < AlienList.GetListCount(); i++)
+        for (int i = 0; i < AlienList.Instance.GetListCount(); i++)
         {
             if(_movingRight)
             {
-                AlienList.GetListedGameObject(i).transform.position += _horizontalStepLength;
+                AlienList.Instance.GetListedGameObject(i).transform.position += _horizontalStepLength;
             }
             if(!_movingRight)
             {
-                AlienList.GetListedGameObject(i).transform.position -= _horizontalStepLength;
+                AlienList.Instance.GetListedGameObject(i).transform.position -= _horizontalStepLength;
+            
+                if(AlienList.Instance.GetListedGameObject(i).transform.position.x > LevelBoundry.width -0.40f || AlienList.Instance.GetListedGameObject(i).transform.position.x < -(LevelBoundry.width -0.40f))
+                {
+                    hitMax++;
+                }
             }
-
-            if(AlienList.GetListedGameObject(i).transform.position.x > LevelBoundry.width -0.40f || AlienList.GetListedGameObject(i).transform.position.x < -(LevelBoundry.width -0.40f))
+            if(hitMax > 0)
             {
-                hitMax++;
+                for (int j = 0; j < AlienList.Instance.GetListCount(); j++)
+                {
+                    AlienList.Instance.GetListedGameObject(j).transform.position -= _verticalStepLength;
+                }
+                _movingRight = !_movingRight;
             }
-        }
-        if(hitMax > 0)
-        {
-            for (int i = 0; i < AlienList.GetListCount(); i++)
-            {
-                AlienList.GetListedGameObject(i).transform.position -= _verticalStepLength;
-            }
-            _movingRight = !_movingRight;
-        }
         _totalTimeToMoveAliens = GetMoveSpeed();
+    }
     }
     
     private float GetMoveSpeed()
     {
-        float moveSpeed = AlienList.GetListCount() * _moveSpeedMultiplier;
+        float moveSpeed = AlienList.Instance.GetListCount() * _moveSpeedMultiplier;
         if(moveSpeed < MAX_MOVE_SPEED)
         {
             return MAX_MOVE_SPEED;

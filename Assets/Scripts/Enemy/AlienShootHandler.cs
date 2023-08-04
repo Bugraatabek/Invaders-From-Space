@@ -11,6 +11,7 @@ public class AlienShootHandler : MonoBehaviour
     void Start()
     {
         _shootTimer = cooldown;
+        SetBulletPools();
     }
 
     void Update()
@@ -24,11 +25,24 @@ public class AlienShootHandler : MonoBehaviour
 
     private void CommandShoot()
     {
-        if(AlienList.GetListCount() <= 0) return;
-        GameObject alien = AlienList.GetListedGameObject(UnityEngine.Random.Range(0, AlienList.GetListCount()));
-        alien.GetComponent<Alien>().Shoot();
+        if(AlienList.Instance.GetListCount() <= 0) return;
+        Alien alien = AlienList.Instance.GetListedGameObject(UnityEngine.Random.Range(0, AlienList.Instance.GetListCount()));
+        if(alien.IsDead()) return;
         
+        alien.Shoot();
+
         _shootTimer = cooldown;
+    }
+
+    public void SetBulletPools()
+    {
+        print("Setting Bullet Pools");
+        for (int i = 0; i < AlienList.Instance.GetListCount(); i++)
+        {
+            print("i am inside the loop");
+            Clip alienClip = AlienList.Instance.GetListedGameObject(i).GetComponent<Clip>();
+            alienClip.SetBulletPool(GameManager.instance.GetBulletPool(alienClip.GetBulletType()));
+        }
     }
 }
 

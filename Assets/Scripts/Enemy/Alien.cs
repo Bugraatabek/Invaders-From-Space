@@ -6,9 +6,9 @@ using UnityEngine;
 public class Alien : MonoBehaviour
 {
    [SerializeField] private int _scoreValue;
-   [SerializeField] private GameObject explosion;
    [SerializeField] private Gun gun;
 
+   private bool isDead = false;
    PickupDropper pickupDropper;
    Health health;
    public static event Action<int> scoreIncreased;
@@ -32,16 +32,35 @@ public class Alien : MonoBehaviour
 
    public void Kill()
    {
+      isDead = true;
       scoreIncreased?.Invoke(_scoreValue);
-      AlienList.RemoveFromList(gameObject);
-      Instantiate(explosion, transform.position, Quaternion.identity);
+      DeactivateEngines();
+      GetComponent<AnimatiorControllerHandler>().Death();
+   }
+
+   //Animation Event
+   private void EndOfDeath()
+   {
+      AlienList.Instance.RemoveFromList(this);
       pickupDropper.DropPickup();
-      
       gameObject.SetActive(false);
+   }
+
+   private void DeactivateEngines()
+   {
+      for (int i = 0; i < transform.childCount; i++)
+      {
+         transform.GetChild(i).gameObject.SetActive(false);
+      }
    }
 
    public void Shoot()
    {
       gun.Shoot();
+   }
+
+   public bool IsDead()
+   {
+      return isDead;
    }
 }
