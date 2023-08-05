@@ -108,6 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _scoreValue: 0
   gun: {fileID: 5453339149618567314}
+  destructionSFX: {fileID: 8300000, guid: 4512eeafa42f94143a393fc1d12e6f15, type: 3}
 --- !u!114 &7150814625714361339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _clipSize: 100
   _bulletPool: {fileID: 0}
-  bulletType: 0
+  bulletType: 6
 --- !u!114 &5453339149618567314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,6 +139,7 @@ MonoBehaviour:
   gunType: 0
   _cooldown: 0.2
   _damage: 1
+  sfx: {fileID: 0}
 --- !u!114 &4712833197516852110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,6 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 2
   isPlayer: 0
+  hitSFX: {fileID: 8300000, guid: 1754bfbb153c5aa43bc126f136cc3e53, type: 3}
 --- !u!61 &4330050881235314466
 BoxCollider2D:
   m_ObjectHideFlags: 0

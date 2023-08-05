@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -36,13 +36,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,9 +51,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -127,18 +127,348 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a227d4770438442b433417ee2d4719
+      internalID: -173981822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 6
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4681db2ff28a641895dea736dd668f
+      internalID: -1055422394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 6
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49df2721a3433024b99f420a4675479b
+      internalID: -1178227459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 6
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b0f6acf4761fa43b9f421f06f65a8e
+      internalID: 773993984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 6
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fcdd2f46730e845807eafa101354b6
+      internalID: 445658452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 6
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3dc648e4bbb8c4cbc7d06b50404d98
+      internalID: -2073439558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 6
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d937f0e9711f742af244a0dd25f27b
+      internalID: -1866617770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 6
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17fa70c0f89eca46bb9185ab883a770
+      internalID: 59195171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 6
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7293d6aea78444e951f3edabda43ef
+      internalID: 24309555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 6
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc22cbdd8f9c67c41b9592116648090c
+      internalID: 445500116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 6
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3838c20f221a6784c926792fd7f07d65
+      internalID: -492784828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 6
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52d6adb52dd6f840b9dc9cd998aa8fb
+      internalID: -1544957073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_12
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 6
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07aadf12479c30446862426837e36555
+      internalID: -751013447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 6
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cc59ed0a6eac64a95c3da7a9c18455
+      internalID: -1847887350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - Front Shield_14
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 6
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a6e5773e8e8d0458cfba3d4ea70780
+      internalID: -1702797996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ab30df252d0367145a16d7b7a5de4aa7
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pickup Icon - Shield Generator - Front Shield_0: -173981822
+      Pickup Icon - Shield Generator - Front Shield_1: -1055422394
+      Pickup Icon - Shield Generator - Front Shield_10: -492784828
+      Pickup Icon - Shield Generator - Front Shield_11: -1544957073
+      Pickup Icon - Shield Generator - Front Shield_12: -751013447
+      Pickup Icon - Shield Generator - Front Shield_13: -1847887350
+      Pickup Icon - Shield Generator - Front Shield_14: -1702797996
+      Pickup Icon - Shield Generator - Front Shield_2: -1178227459
+      Pickup Icon - Shield Generator - Front Shield_3: 773993984
+      Pickup Icon - Shield Generator - Front Shield_4: 445658452
+      Pickup Icon - Shield Generator - Front Shield_5: -2073439558
+      Pickup Icon - Shield Generator - Front Shield_6: -1866617770
+      Pickup Icon - Shield Generator - Front Shield_7: 59195171
+      Pickup Icon - Shield Generator - Front Shield_8: 24309555
+      Pickup Icon - Shield Generator - Front Shield_9: 445500116
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

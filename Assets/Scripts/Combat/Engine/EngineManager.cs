@@ -22,4 +22,9 @@ public class EngineManager : MonoBehaviour
         
         engineLevel ++;
     }
+
+    public int GetEngineLevel()
+    {
+        return engineLevel;
+    }
 }

@@ -184,4 +184,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _travelSpeed: 2
+  sfx: {fileID: 8300000, guid: 5d7f46faad63ad2449bcb83180325cde, type: 3}
   _lifeAmount: 1

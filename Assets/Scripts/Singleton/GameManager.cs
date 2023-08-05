@@ -7,7 +7,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public GameObject[] allAlienSets;
     private GameObject currentSet;
-    private Vector2 spawnPos = new Vector2(0,0);
+    [SerializeField] private Vector2 spawnPos;
+    private int currentWave = 0;
     [SerializeField] private Dictionary<EBulletType, BulletPool> bulletPoolsDict;
     
     private void Awake() 
@@ -30,18 +31,28 @@ public class GameManager : MonoBehaviour
 
     public void SpawnNewWave()
     {
-        StartCoroutine(SpawnWave());
+        if(currentWave >= allAlienSets.Length)
+        {
+            currentWave = 0;
+        }
+        StartCoroutine(SpawnWave(currentWave));
+        currentWave++;
+        
     }
 
-    private IEnumerator SpawnWave()
+    private IEnumerator SpawnWave(int waveToInstantiate)
     {
         if(currentSet != null)
         {
+            AlienList.Instance.waveFinished -= SpawnNewWave;
             Destroy(currentSet);
         }
         yield return new WaitForSeconds(3);
-        currentSet = Instantiate(allAlienSets[Random.Range(0,allAlienSets.Length)], spawnPos, Quaternion.identity);
-        PlayerUI.Instance.UpdateWave();
+        currentSet = Instantiate(allAlienSets[waveToInstantiate], spawnPos, Quaternion.identity);
+        AlienList.Instance.waveFinished += SpawnNewWave;
+        
+        
+        PlayerUI.Instance.UpdateWave(waveToInstantiate);
     }
 
     private void BuildBulletPoolDict()

@@ -241,6 +241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 2
   isPlayer: 0
+  hitSFX: {fileID: 8300000, guid: e347367fa38868146b8d9e090fce5af0, type: 3}
 --- !u!61 &8942689051565887482
 BoxCollider2D:
   m_ObjectHideFlags: 0

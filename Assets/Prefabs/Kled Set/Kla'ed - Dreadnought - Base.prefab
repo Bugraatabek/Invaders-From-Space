@@ -33,7 +33,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808676337862770276}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0.09700006, y: 0.71, z: 0.10619914}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -108,6 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _scoreValue: 0
   gun: {fileID: 4796722447798904207}
+  destructionSFX: {fileID: 8300000, guid: 4512eeafa42f94143a393fc1d12e6f15, type: 3}
 --- !u!114 &4706143090227211259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,6 +139,7 @@ MonoBehaviour:
   gunType: 0
   _cooldown: 1
   _damage: 10
+  sfx: {fileID: 0}
 --- !u!114 &5684072596274721533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,6 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 10
   isPlayer: 0
+  hitSFX: {fileID: 8300000, guid: 1754bfbb153c5aa43bc126f136cc3e53, type: 3}
 --- !u!61 &4646151965152037680
 BoxCollider2D:
   m_ObjectHideFlags: 0

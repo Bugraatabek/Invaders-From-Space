@@ -7,6 +7,7 @@ public class Alien : MonoBehaviour
 {
    [SerializeField] private int _scoreValue;
    [SerializeField] private Gun gun;
+   [SerializeField] private AudioClip destructionSFX;
 
    private bool isDead = false;
    PickupDropper pickupDropper;
@@ -41,6 +42,7 @@ public class Alien : MonoBehaviour
    //Animation Event
    private void EndOfDeath()
    {
+      AudioPlayer.instance.PlayAudio(destructionSFX);
       AlienList.Instance.RemoveFromList(this);
       pickupDropper.DropPickup();
       gameObject.SetActive(false);

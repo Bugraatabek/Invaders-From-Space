@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1316616135617051855
 Transform:
   m_ObjectHideFlags: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1316616135617051892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.131, y: 0.371, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -123,6 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _clipSize: 30
   _bulletPool: {fileID: 0}
+  bulletType: 1
 --- !u!114 &1316616135617051851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,6 +139,7 @@ MonoBehaviour:
   gunType: 2
   _cooldown: 0.7
   _damage: 8
+  sfx: {fileID: 8300000, guid: 647f42f026a0728439dc1ee30634f54f, type: 3}
 --- !u!114 &-831403487642474618
 MonoBehaviour:
   m_ObjectHideFlags: 0

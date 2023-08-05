@@ -164,6 +164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 5
   isPlayer: 1
+  hitSFX: {fileID: 8300000, guid: 79edf355c3c692d4b8fd33ce4526323e, type: 3}
 --- !u!114 &1839521121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _clipSize: 40
   _bulletPool: {fileID: 0}
+  bulletType: 0
 --- !u!114 &8082314206526769045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,7 +224,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunType: 0
   _cooldown: 0.5
-  _damage: 5
+  _damage: 1
+  sfx: {fileID: 8300000, guid: 040c88ecc5fb347409356e94631284bb, type: 3}
 --- !u!114 &3465069552225636333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,6 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxLifes: 3
+  lifeLostSFX: {fileID: 0}
 --- !u!114 &982334662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,10 +449,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Ship - Weapons - Zapper_0
       objectReference: {fileID: 0}
-    - target: {fileID: 6266819995686078709, guid: cfcebbbc18cee284faf883c06feabd52, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfcebbbc18cee284faf883c06feabd52, type: 3}
 --- !u!114 &6271444299916276524 stripped
@@ -477,10 +477,6 @@ PrefabInstance:
     - target: {fileID: 5366503805155735536, guid: 5271e99cd66ead0498dacc15a3008e3c, type: 3}
       propertyPath: m_Name
       value: Main Ship - Weapons - Rockets_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5366503805155735536, guid: 5271e99cd66ead0498dacc15a3008e3c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5366503805155735541, guid: 5271e99cd66ead0498dacc15a3008e3c, type: 3}
       propertyPath: m_RootOrder
@@ -775,18 +771,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1316616135617051855, guid: 58c23076df8b3024c9b89a3421cccd13, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1316616135617051855, guid: 58c23076df8b3024c9b89a3421cccd13, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1316616135617051855, guid: 58c23076df8b3024c9b89a3421cccd13, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1316616135617051855, guid: 58c23076df8b3024c9b89a3421cccd13, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -829,10 +813,6 @@ PrefabInstance:
     - target: {fileID: 1316616135617051892, guid: 58c23076df8b3024c9b89a3421cccd13, type: 3}
       propertyPath: m_Name
       value: Main Ship - Weapons - Big Space Gun_3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1316616135617051892, guid: 58c23076df8b3024c9b89a3421cccd13, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58c23076df8b3024c9b89a3421cccd13, type: 3}
@@ -935,10 +915,6 @@ PrefabInstance:
     - target: {fileID: 5352561319079491954, guid: 80b2d3a1eb35b0d498893a1c93425141, type: 3}
       propertyPath: m_Name
       value: Main Ship - Weapons - Auto Cannon_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5352561319079491954, guid: 80b2d3a1eb35b0d498893a1c93425141, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5352561319079491967, guid: 80b2d3a1eb35b0d498893a1c93425141, type: 3}
       propertyPath: m_RootOrder

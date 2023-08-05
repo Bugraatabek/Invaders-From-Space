@@ -7,5 +7,6 @@ public class HealthPickup : Pickup
     {
         other.GetComponent<Health>().Heal(_healAmount);
         base.CollisionEffect(other);
+        PickupAnimationSpawner.instance.SpawnPickupAnimation($"Healed: {_healAmount}");
     }
 }

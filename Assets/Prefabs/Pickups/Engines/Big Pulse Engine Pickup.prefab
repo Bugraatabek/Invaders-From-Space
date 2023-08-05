@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _travelSpeed: 3
+  sfx: {fileID: 8300000, guid: f944278e2a1c7964c992a52b1037a4bc, type: 3}
 --- !u!61 &5870366740565379
 BoxCollider2D:
   m_ObjectHideFlags: 0

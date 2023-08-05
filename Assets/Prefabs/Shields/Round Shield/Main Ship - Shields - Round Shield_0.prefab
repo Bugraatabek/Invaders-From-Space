@@ -317,6 +317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   isPlayer: 0
+  hitSFX: {fileID: 8300000, guid: e347367fa38868146b8d9e090fce5af0, type: 3}
 --- !u!114 &3285552527858642597
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -36,13 +36,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,9 +51,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -127,18 +127,348 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466dbfbba8c62b949aeaf5bdeaf637ae
+      internalID: -1716029235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc8eeb96e48d654c86cdbbfd22c700a
+      internalID: -936451439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adbaa98463fde048919c0af9b4ff06d
+      internalID: 350877756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b4414b0a94d9a45983917313e52ab6
+      internalID: -1526241843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9975784d2317647a94ff77c23a1fc2
+      internalID: 1704007111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061a492657adb4849b6d622fed32bf74
+      internalID: -605063338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3158b03b821c4394e9a557f9be7e3dcc
+      internalID: 1307930114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf323c3c506a114d9d7f5fd3331158f
+      internalID: 604670538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f33a5fa27d270943831bfe333dcc985
+      internalID: -1004909701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0e5a3bcc83d16489d5db1ec639d8a2
+      internalID: 1647321519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c4248ff1dc6c745ad24b0fbe8d0d95
+      internalID: -666530698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316237d266d42aa43b906380f85f8996
+      internalID: -2025460839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af874017e5362343a5f90d22987908f
+      internalID: -791337140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e0a8da1a54208489be4517d63a8c58
+      internalID: -28149930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup Icon - Shield Generator - All around shield_14
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80379c16e4af5a4ab35d2fc7c671446
+      internalID: 1493379503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cef7cc261ac3d094da62a9aedebb595e
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pickup Icon - Shield Generator - All around shield_0: -1716029235
+      Pickup Icon - Shield Generator - All around shield_1: -936451439
+      Pickup Icon - Shield Generator - All around shield_10: -666530698
+      Pickup Icon - Shield Generator - All around shield_11: -2025460839
+      Pickup Icon - Shield Generator - All around shield_12: -791337140
+      Pickup Icon - Shield Generator - All around shield_13: -28149930
+      Pickup Icon - Shield Generator - All around shield_14: 1493379503
+      Pickup Icon - Shield Generator - All around shield_2: 350877756
+      Pickup Icon - Shield Generator - All around shield_3: -1526241843
+      Pickup Icon - Shield Generator - All around shield_4: 1704007111
+      Pickup Icon - Shield Generator - All around shield_5: -605063338
+      Pickup Icon - Shield Generator - All around shield_6: 1307930114
+      Pickup Icon - Shield Generator - All around shield_7: 604670538
+      Pickup Icon - Shield Generator - All around shield_8: -1004909701
+      Pickup Icon - Shield Generator - All around shield_9: 1647321519
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

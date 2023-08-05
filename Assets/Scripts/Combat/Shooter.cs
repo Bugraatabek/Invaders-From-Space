@@ -34,13 +34,15 @@ public class Shooter : MonoBehaviour
         _gun.Shoot();
     }
 
-    public void SetGun(EGunType gunType)
+    public void SetGun(EGunType gunType, int bulletsToAdd)
     {
         foreach (var gun in guns)
         {
             if(gun.GetGunType() == gunType)
             {
+                print("Setting Gun To" + gunType);
                 gun.gameObject.SetActive(true);
+                gun.AddBullets(bulletsToAdd);
                 _gun = gun;
                 observeGun?.Invoke(_gun);
             }

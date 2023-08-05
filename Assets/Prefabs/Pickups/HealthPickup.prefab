@@ -184,4 +184,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _travelSpeed: 3
+  sfx: {fileID: 8300000, guid: b69229b1052bd3343b85284c84b35ed3, type: 3}
   _healAmount: 1

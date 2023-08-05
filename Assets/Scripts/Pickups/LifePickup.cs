@@ -7,5 +7,6 @@ public class LifePickup : Pickup
     {
         other.GetComponent<Life>().IncreaseLife(_lifeAmount);
         base.CollisionEffect(other);
+        PickupAnimationSpawner.instance.SpawnPickupAnimation($"Gained {_lifeAmount} Life");
     }    
 }

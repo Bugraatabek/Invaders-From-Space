@@ -150,7 +150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6837825704810695409}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 1.319, y: -1.35, z: 0.10619914}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -225,6 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _scoreValue: 0
   gun: {fileID: 4368602782157130073}
+  destructionSFX: {fileID: 8300000, guid: 4512eeafa42f94143a393fc1d12e6f15, type: 3}
 --- !u!114 &6068040161735592047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,7 +240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _clipSize: 100
   _bulletPool: {fileID: 0}
-  bulletType: 7
+  bulletType: 8
 --- !u!114 &4368602782157130073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,6 +256,7 @@ MonoBehaviour:
   gunType: 0
   _cooldown: 0.5
   _damage: 2
+  sfx: {fileID: 0}
 --- !u!114 &5117068099508542572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,6 +284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 2
   isPlayer: 0
+  hitSFX: {fileID: 8300000, guid: 1754bfbb153c5aa43bc126f136cc3e53, type: 3}
 --- !u!61 &7508471156993605674
 BoxCollider2D:
   m_ObjectHideFlags: 0

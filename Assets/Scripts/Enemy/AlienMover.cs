@@ -11,6 +11,7 @@ public class AlienMover : MonoBehaviour
     private float _moveSpeedMultiplier = 0.005f;
 
     private bool _movingRight;
+    private bool movingDown;
     private const float MAX_MOVE_SPEED = 0.02f; 
 
     void FixedUpdate()
@@ -31,25 +32,48 @@ public class AlienMover : MonoBehaviour
             {
                 AlienList.Instance.GetListedGameObject(i).transform.position += _horizontalStepLength;
             }
+
             if(!_movingRight)
             {
                 AlienList.Instance.GetListedGameObject(i).transform.position -= _horizontalStepLength;
+            }
             
-                if(AlienList.Instance.GetListedGameObject(i).transform.position.x > LevelBoundry.width -0.40f || AlienList.Instance.GetListedGameObject(i).transform.position.x < -(LevelBoundry.width -0.40f))
-                {
-                    hitMax++;
-                }
-            }
-            if(hitMax > 0)
+            if(AlienList.Instance.GetListedGameObject(i).transform.position.x > LevelBoundry.width -0.40f || AlienList.Instance.GetListedGameObject(i).transform.position.x < -(LevelBoundry.width - 0.40f))
             {
-                for (int j = 0; j < AlienList.Instance.GetListCount(); j++)
-                {
-                    AlienList.Instance.GetListedGameObject(j).transform.position -= _verticalStepLength;
-                }
-                _movingRight = !_movingRight;
+                hitMax++;
             }
+
+            if(AlienList.Instance.GetListedGameObject(i).transform.position.y < -(LevelBoundry.height/2))
+            {
+                movingDown = false;
+            }
+            
+            if(AlienList.Instance.GetListedGameObject(i).transform.position.y > (LevelBoundry.height/2))
+            {
+                movingDown = true;
+            }
+            
+        }
+
+        if(hitMax > 0 && !movingDown)
+        {
+            for (int i = 0; i < AlienList.Instance.GetListCount(); i++)
+            {
+                AlienList.Instance.GetListedGameObject(i).transform.position += _verticalStepLength;
+            }
+            _movingRight = !_movingRight;
+        }
+
+        if(hitMax > 0 && movingDown)
+        {
+            for (int i = 0; i < AlienList.Instance.GetListCount(); i++)
+            {
+                AlienList.Instance.GetListedGameObject(i).transform.position -= _verticalStepLength;
+            }
+            _movingRight = !_movingRight;
+        }
+
         _totalTimeToMoveAliens = GetMoveSpeed();
-    }
     }
     
     private float GetMoveSpeed()

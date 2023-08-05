@@ -13,7 +13,6 @@ public class PlayerUI : MonoBehaviour
     public TextMeshProUGUI highscoreText;
     
     //private readonly int _highscore;
-    private int _wave;
 
     
     //private Color32 _active = new Color(1, 1, 1, 1);
@@ -38,9 +37,8 @@ public class PlayerUI : MonoBehaviour
 
     }
 
-    public void UpdateWave()
+    public void UpdateWave(int wave)
     {
-        _wave += 1;
-        waveText.text = _wave.ToString();
+        waveText.text = wave.ToString();
     }
 }

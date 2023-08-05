@@ -9,9 +9,8 @@ public class Gun : MonoBehaviour
     [SerializeField] private EGunType gunType;
     [SerializeField] private float _cooldown;
     [SerializeField] private int _damage;
-    
-    protected bool ShouldShoot {get { return _shouldShoot; }}
-    
+    [SerializeField] private AudioClip sfx;
+
     private bool _shouldShoot = true;
     private float cooldownCounter = Mathf.Infinity;
 
@@ -42,6 +41,7 @@ public class Gun : MonoBehaviour
             return;
         }
         _clip.GetBullet(_damage);
+        AudioPlayer.instance.PlayAudio(sfx);
         cooldownCounter = 0;
     }
 
@@ -53,5 +53,10 @@ public class Gun : MonoBehaviour
     public int GetDamage()
     {
         return _damage;
+    }
+
+    public void AddBullets(int bulletsToAdd)
+    {
+        _clip.AddBullets(bulletsToAdd);
     }
 }

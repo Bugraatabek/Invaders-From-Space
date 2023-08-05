@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pickup : MonoBehaviour, IDealWithCollision
 {
     [SerializeField] private float _travelSpeed;
+    [SerializeField] private AudioClip sfx;
 
     private void Update() 
     {
@@ -13,6 +14,7 @@ public class Pickup : MonoBehaviour, IDealWithCollision
 
     public virtual void CollisionEffect(GameObject other)
     {
+        AudioPlayer.instance.PlayAudio(sfx);
         gameObject.SetActive(false);
     }
 

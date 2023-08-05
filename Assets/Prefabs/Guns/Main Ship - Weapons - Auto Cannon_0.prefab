@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5352561319079491967
 Transform:
   m_ObjectHideFlags: 0
@@ -123,6 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _clipSize: 60
   _bulletPool: {fileID: 0}
+  bulletType: 0
 --- !u!114 &5352561319079491955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,6 +139,7 @@ MonoBehaviour:
   gunType: 1
   _cooldown: 0.2
   _damage: 2
+  sfx: {fileID: 8300000, guid: 9b99238685a2e09459ac54302942d705, type: 3}
 --- !u!114 &1552875855874367043
 MonoBehaviour:
   m_ObjectHideFlags: 0

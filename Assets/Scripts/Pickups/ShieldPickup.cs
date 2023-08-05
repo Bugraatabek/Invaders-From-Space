@@ -6,5 +6,6 @@ public class ShieldPickup : Pickup
     {
         base.CollisionEffect(other);
         other.GetComponent<ShieldManager>().ActivateRandomShield();
+        PickupAnimationSpawner.instance.SpawnPickupAnimation("Random Shield!");
     }
 }

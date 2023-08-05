@@ -5,6 +5,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private int maxHealth;
     [SerializeField] private bool isPlayer = false;
+    [SerializeField] private AudioClip hitSFX;
     
     private int currentHealth;
    
@@ -24,9 +25,14 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        AudioPlayer.instance.PlayAudio(hitSFX);
         damage = Math.Abs(damage);
 
         currentHealth -= damage;
+        if(currentHealth <= 0)
+        {
+            currentHealth = 0;
+        }
         onTakeDamage?.Invoke();
         observeCurrentHealth?.Invoke(currentHealth);
 

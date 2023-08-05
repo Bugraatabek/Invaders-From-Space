@@ -123,7 +123,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _travelSpeed: 2
+  sfx: {fileID: 8300000, guid: 65b02e01d2e1773469db26ec86908c7c, type: 3}
   gunType: 3
+  bulletAmount: 20
+  gunName: Zapper
 --- !u!114 &1609965353753927824
 MonoBehaviour:
   m_ObjectHideFlags: 0

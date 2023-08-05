@@ -184,4 +184,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _travelSpeed: 3
+  sfx: {fileID: 8300000, guid: 8a38b0d63a4d62040af859c0ac549293, type: 3}
   _coinAmount: 1
