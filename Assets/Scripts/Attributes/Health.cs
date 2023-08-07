@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
@@ -10,8 +11,9 @@ public class Health : MonoBehaviour
     private int currentHealth;
    
     public event Action onDeath;
-    public event Action onTakeDamage;
+    public event Action onHealthChange;
     public event Action<int> observeCurrentHealth;
+
 
     private void Awake() 
     {
@@ -33,7 +35,7 @@ public class Health : MonoBehaviour
         {
             currentHealth = 0;
         }
-        onTakeDamage?.Invoke();
+        onHealthChange?.Invoke();
         observeCurrentHealth?.Invoke(currentHealth);
 
         if(currentHealth <= 0)
@@ -62,6 +64,7 @@ public class Health : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
+        onHealthChange?.Invoke();
         observeCurrentHealth?.Invoke(currentHealth);
         
     }

@@ -19,4 +19,18 @@ public class ShieldManager : MonoBehaviour
         shield.gameObject.SetActive(true);
         shield.ResetShield();
     }
+
+    public void ActivateShield(EShieldType shieldType)
+    {
+        foreach (Shield shield in shields)
+        {
+            shield.gameObject.SetActive(false);
+            if(shield.GetShieldType() == shieldType)
+            {
+                shield.gameObject.SetActive(true);
+                shield.ResetShield();
+            }
+            
+        }
+    }
 }

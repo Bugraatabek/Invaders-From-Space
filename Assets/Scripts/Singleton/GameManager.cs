@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,8 @@ public class GameManager : MonoBehaviour
     private GameObject currentSet;
     [SerializeField] private Vector2 spawnPos;
     private int currentWave = 0;
+
+    public event Action<int> observeWave;
     [SerializeField] private Dictionary<EBulletType, BulletPool> bulletPoolsDict;
     
     private void Awake() 
@@ -37,6 +40,7 @@ public class GameManager : MonoBehaviour
         }
         StartCoroutine(SpawnWave(currentWave));
         currentWave++;
+        observeWave?.Invoke(currentWave);
         
     }
 
@@ -50,9 +54,6 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(3);
         currentSet = Instantiate(allAlienSets[waveToInstantiate], spawnPos, Quaternion.identity);
         AlienList.Instance.waveFinished += SpawnNewWave;
-        
-        
-        PlayerUI.Instance.UpdateWave(waveToInstantiate);
     }
 
     private void BuildBulletPoolDict()

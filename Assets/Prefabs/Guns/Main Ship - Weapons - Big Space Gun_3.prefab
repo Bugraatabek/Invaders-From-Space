@@ -138,8 +138,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunType: 2
   _cooldown: 0.7
-  _damage: 8
+  _damage: 5
   sfx: {fileID: 8300000, guid: 647f42f026a0728439dc1ee30634f54f, type: 3}
+  gunName: Big Space Gun
 --- !u!114 &-831403487642474618
 MonoBehaviour:
   m_ObjectHideFlags: 0

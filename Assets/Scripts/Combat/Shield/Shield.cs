@@ -5,8 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(Health))]
 public class Shield : MonoBehaviour
 {
-    protected Health health;
-    protected bool isDead = false;
+    private Health health;
+    private bool isDead = false;
+    [SerializeField] EShieldType shieldType;
     
     protected virtual void Awake() 
     {
@@ -15,12 +16,12 @@ public class Shield : MonoBehaviour
 
     private void OnEnable() 
     {
-        health.onTakeDamage += UpdateShield;
+        health.onHealthChange += UpdateShield;
     }
 
     private void OnDisable() 
     {
-        health.onTakeDamage -= UpdateShield;
+        health.onHealthChange -= UpdateShield;
     }
 
     protected virtual void UpdateShield()
@@ -36,5 +37,10 @@ public class Shield : MonoBehaviour
     public void ResetShield()
     {
         health.Heal(50);
+    }
+
+    public EShieldType GetShieldType()
+    {
+        return shieldType;
     }
 }

@@ -16,6 +16,7 @@ public class Pickup : MonoBehaviour, IDealWithCollision
     {
         AudioPlayer.instance.PlayAudio(sfx);
         gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 
     private void Travel()

@@ -27,7 +27,7 @@ public class AmmoUI : MonoBehaviour
 
     private void UpdateUI(int currentBullets)
     {
-        bulletText.text = currentBullets.ToString();
+        bulletText.text = $"Bullets: {currentBullets}";
     }
 
     private void OnDisable() 

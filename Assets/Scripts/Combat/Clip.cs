@@ -42,7 +42,6 @@ public class Clip : MonoBehaviour
     public void SetBulletPool(BulletPool bulletPool)
     {
         _bulletPool = bulletPool;
-        print("Set Bullet Pool To" + bulletPool);
     }
 
     public EBulletType GetBulletType()

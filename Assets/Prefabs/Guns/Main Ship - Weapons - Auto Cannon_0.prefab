@@ -138,8 +138,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunType: 1
   _cooldown: 0.2
-  _damage: 2
+  _damage: 1
   sfx: {fileID: 8300000, guid: 9b99238685a2e09459ac54302942d705, type: 3}
+  gunName: Auto Cannon
 --- !u!114 &1552875855874367043
 MonoBehaviour:
   m_ObjectHideFlags: 0

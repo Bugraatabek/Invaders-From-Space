@@ -11,12 +11,12 @@ public class Shooter : MonoBehaviour
     private void Awake() 
     {
         _gun = GetComponent<Gun>();
-        observeGun?.Invoke(_gun);
     }
 
     private void Start() 
     {
         InputReader.instance.shoot += Shoot;
+        observeGun?.Invoke(_gun);
     }
 
     private void OnDisable() 
@@ -40,7 +40,6 @@ public class Shooter : MonoBehaviour
         {
             if(gun.GetGunType() == gunType)
             {
-                print("Setting Gun To" + gunType);
                 gun.gameObject.SetActive(true);
                 gun.AddBullets(bulletsToAdd);
                 _gun = gun;

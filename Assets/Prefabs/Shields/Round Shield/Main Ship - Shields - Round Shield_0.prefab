@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac75f45c9c3153542a923eb52f9e7b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
+  maxHealth: 10
   isPlayer: 0
   hitSFX: {fileID: 8300000, guid: e347367fa38868146b8d9e090fce5af0, type: 3}
 --- !u!114 &3285552527858642597
@@ -330,6 +330,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a307c9cdddf5a94481a76a3d930ef24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shieldType: 1
+  shieldName: Round Shield
 --- !u!61 &1624599506194375178
 BoxCollider2D:
   m_ObjectHideFlags: 0

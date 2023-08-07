@@ -138,8 +138,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunType: 4
   _cooldown: 0.4
-  _damage: 4
+  _damage: 2
   sfx: {fileID: 8300000, guid: fe7f010e92477e949bfce03a7e469618, type: 3}
+  gunName: Rocket Gun
 --- !u!114 &3289122076268345274
 MonoBehaviour:
   m_ObjectHideFlags: 0

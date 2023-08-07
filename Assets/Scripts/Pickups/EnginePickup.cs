@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class EnginePickup : Pickup 
 {
     public override void CollisionEffect(GameObject other)

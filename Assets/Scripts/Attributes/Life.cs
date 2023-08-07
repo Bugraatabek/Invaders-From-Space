@@ -10,6 +10,7 @@ public class Life : MonoBehaviour
     [SerializeField] private AudioClip lifeLostSFX;
     private Health health;
     private int currentLifes;
+    public event Action onDeath;
     
     
     private void Awake() 
@@ -40,7 +41,8 @@ public class Life : MonoBehaviour
         observeLives?.Invoke(currentLifes);
         if(currentLifes <= 0)
         {
-            print("you're dead, game is over");
+            gameObject.SetActive(false);
+            onDeath?.Invoke();
         }
     }
 

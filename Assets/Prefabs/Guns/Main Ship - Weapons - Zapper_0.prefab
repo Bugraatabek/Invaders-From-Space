@@ -138,8 +138,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunType: 3
   _cooldown: 0.6
-  _damage: 6
+  _damage: 3
   sfx: {fileID: 8300000, guid: 040c88ecc5fb347409356e94631284bb, type: 3}
+  gunName: Zapper
 --- !u!114 &571691913231574005
 MonoBehaviour:
   m_ObjectHideFlags: 0

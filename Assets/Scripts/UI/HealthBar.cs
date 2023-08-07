@@ -15,12 +15,12 @@ public class HealthBar : MonoBehaviour
 
     private void OnEnable() 
     {
-        healthComponent.onTakeDamage += UpdateUI;
+        healthComponent.onHealthChange += UpdateUI;
     }
 
     private void OnDisable() 
     {
-        healthComponent.onTakeDamage -= UpdateUI;
+        healthComponent.onHealthChange -= UpdateUI;
     }
 
     private void UpdateUI()

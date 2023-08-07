@@ -1,24 +1,24 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HealthUI : MonoBehaviour 
 {
-    public Sprite[] healthBars;
-    public Image healthBar;
-    
-    Health playerHealth;
-    private void Awake() 
-    {
-        playerHealth = GameObject.FindWithTag("Player").GetComponent<Health>();
-    }
+    [SerializeField] Health playerHealth;
+    [SerializeField] private TextMeshProUGUI healthText;
 
-    private void Start() 
+    private void OnEnable() 
     {
         playerHealth.observeCurrentHealth += UpdateUI;
     }
 
+    private void OnDisable()
+    {
+        playerHealth.observeCurrentHealth -= UpdateUI;
+    }
+
     public void UpdateUI(int currentHealth)
     {
-        healthBar.sprite = healthBars[currentHealth];
+        healthText.text = $"Health: {currentHealth}";
     }
 }

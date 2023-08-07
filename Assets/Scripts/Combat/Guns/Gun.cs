@@ -10,6 +10,7 @@ public class Gun : MonoBehaviour
     [SerializeField] private float _cooldown;
     [SerializeField] private int _damage;
     [SerializeField] private AudioClip sfx;
+    [SerializeField] private string gunName;
 
     private bool _shouldShoot = true;
     private float cooldownCounter = Mathf.Infinity;
@@ -58,5 +59,10 @@ public class Gun : MonoBehaviour
     public void AddBullets(int bulletsToAdd)
     {
         _clip.AddBullets(bulletsToAdd);
+    }
+
+    public string GetGunName()
+    {
+        return gunName;
     }
 }

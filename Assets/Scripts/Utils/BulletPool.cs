@@ -29,7 +29,6 @@ public class BulletPool : MonoBehaviour
 
     public Bullet GetPooledBullet(Vector3 spawnLocation, int damage)
     {
-        print("Getting Bullet From Pool");
         Bullet bulletToGet = pooledBullets.Dequeue();
         bulletToGet.SetDamage(damage);
         bulletToGet.transform.position = spawnLocation;

@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac75f45c9c3153542a923eb52f9e7b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 2
+  maxHealth: 5
   isPlayer: 0
   hitSFX: {fileID: 8300000, guid: e347367fa38868146b8d9e090fce5af0, type: 3}
 --- !u!61 &8942689051565887482
@@ -280,6 +280,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a307c9cdddf5a94481a76a3d930ef24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shieldType: 0
+  shieldName: Front Shield
 --- !u!1 &6812331895052273409
 GameObject:
   m_ObjectHideFlags: 0

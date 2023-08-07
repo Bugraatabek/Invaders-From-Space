@@ -16,6 +16,11 @@ public class ScoreUI : MonoBehaviour
     private void UpdateUI(int scoreToIncrease)
     {
         _score += scoreToIncrease;
-        scoreText.text = _score.ToString();
+        scoreText.text = $"Score: {_score}";
+    }
+
+    public int GetScore()
+    {
+        return _score;
     }
 }

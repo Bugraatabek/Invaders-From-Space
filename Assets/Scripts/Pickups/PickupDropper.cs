@@ -5,6 +5,7 @@ using UnityEngine;
 public class PickupDropper : MonoBehaviour
 {
     [SerializeField] DropLibrary dropLibrary;
+    [SerializeField] PickupPool pickupPool;
     Pickup[] pickupsToDrop;
     int dropChanceFloor = 0;
     int dropChanceCeiling = 100;
