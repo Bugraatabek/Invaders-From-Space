@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _clipSize: 100
   _bulletPool: {fileID: 0}
-  bulletType: 6
+  bulletType: 5
 --- !u!114 &5453339149618567314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,6 +140,7 @@ MonoBehaviour:
   _cooldown: 0.2
   _damage: 2
   sfx: {fileID: 0}
+  gunName: 
 --- !u!114 &4712833197516852110
 MonoBehaviour:
   m_ObjectHideFlags: 0

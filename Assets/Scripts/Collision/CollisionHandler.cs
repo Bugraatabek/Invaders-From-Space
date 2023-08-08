@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class CollisionHandler : MonoBehaviour
 {
-    IDealWithCollision iGetEffectedOnCollision = null;
+    IDealWithCollision IDealWithCollision = null;
 
     private void Awake() 
     {
-        iGetEffectedOnCollision = GetComponent<IDealWithCollision>();
+        IDealWithCollision = GetComponent<IDealWithCollision>();
     }
 
     public virtual void OnTriggerEnter2D(Collider2D other) 
     {
-        iGetEffectedOnCollision.CollisionEffect(other.gameObject);
+        IDealWithCollision.CollisionEffect(other.gameObject);
     }
 }

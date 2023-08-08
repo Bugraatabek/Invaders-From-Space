@@ -2,13 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InputReader : MonoBehaviour
 {
     public static InputReader instance;
+    public event Action shoot,moveRight, moveLeft;
+    
+    [SerializeField] private Button shootButton;
     private float speed = 3f;
-
-    public event Action shoot,moveRight, moveLeft, switchGuns;
     private float dirx;
 
     private void Awake() 
@@ -22,7 +24,10 @@ public class InputReader : MonoBehaviour
             instance = this;
         }   
     }
-
+    private void OnEnable() 
+    {
+        shootButton.onClick.AddListener(() => Shoot());
+    }
    
     private void Update() 
     {
@@ -39,19 +44,17 @@ public class InputReader : MonoBehaviour
         {
             Shoot();
         }
-        
-        // if(Input.GetKey(KeyCode.R))
-        // {
-        //     SwitchGuns();
-        // }
 #endif
+        dirx = Input.acceleration.x;
+        if(dirx <= -0.1f)
+        {
+            MoveLeft();
+        }
+        if(dirx >= 0.1f)
+        {
+            MoveRight();
+        }
     }
-
-    // private void SwitchGuns()
-    // {
-    //     switchGuns?.Invoke();
-    // }
-
     private void Shoot()
     {
         shoot?.Invoke();

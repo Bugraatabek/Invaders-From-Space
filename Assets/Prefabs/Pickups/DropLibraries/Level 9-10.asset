@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Level 9-10
   m_EditorClassIdentifier: 
   pickupLibrary:
-  - {fileID: 5052433181666245133, guid: 946fc5d9461c48e4d94db938c04f74ca, type: 3}
   - {fileID: 7301778054211328195, guid: 7645ec61c219e48418cec134ffc1acb3, type: 3}
-  - {fileID: 9057204530707650256, guid: e573aafd056ae414c94bba41d2939770, type: 3}
   - {fileID: 2467966768733053996, guid: 793d6e5f68d1b404bb9244758133d1f5, type: 3}
   - {fileID: 9038457126389456734, guid: 18ae40fb97671de4c8c7eba332aa0428, type: 3}
