@@ -65,4 +65,9 @@ public class Gun : MonoBehaviour
     {
         return gunName;
     }
+
+    public int GetCurrentAmmoCount() 
+    {
+        return _clip.GetCurrentAmmoCount();
+    }
 }

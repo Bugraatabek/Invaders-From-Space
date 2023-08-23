@@ -4,19 +4,30 @@ using UnityEngine;
 public class Shooter : MonoBehaviour 
 {
     private Gun _gun;
+    private Gun _defaultGun;
     [SerializeField] private Gun[] guns;
 
     public event Action<Gun> observeGun;
 
     private void Awake() 
     {
-        _gun = GetComponent<Gun>();
+        _defaultGun = GetComponent<Gun>();
+        _gun = _defaultGun;
     }
 
     private void Start() 
     {
         InputReader.instance.shoot += Shoot;
         observeGun?.Invoke(_gun);
+    }
+
+    private void Update()
+    {
+        if ((_gun.GetCurrentAmmoCount() <= 0) && _gun != _defaultGun)
+        {
+            SetGun(_defaultGun.GetGunType(), 100);
+            print("Ammo is zero will now change to default");
+        }
     }
 
     private void OnDisable() 
@@ -36,6 +47,13 @@ public class Shooter : MonoBehaviour
 
     public void SetGun(EGunType gunType, int bulletsToAdd)
     {
+        if(gunType == EGunType.Default) 
+        {
+            _gun = _defaultGun;
+            _gun.AddBullets(bulletsToAdd);
+            print("Gun is set to Default");
+        }
+
         foreach (var gun in guns)
         {
             if(gun.GetGunType() == gunType)
@@ -43,12 +61,12 @@ public class Shooter : MonoBehaviour
                 gun.gameObject.SetActive(true);
                 gun.AddBullets(bulletsToAdd);
                 _gun = gun;
-                observeGun?.Invoke(_gun);
             }
             else
             {
                 gun.gameObject.SetActive(false);
             }
         }
+        observeGun?.Invoke(_gun);
     }
 }

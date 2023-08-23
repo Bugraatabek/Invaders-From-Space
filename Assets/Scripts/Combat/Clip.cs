@@ -48,4 +48,9 @@ public class Clip : MonoBehaviour
     {
         return bulletType;
     }
+
+    public int GetCurrentAmmoCount()
+    {
+        return _currentBulletCount;
+    }
 }
